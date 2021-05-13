@@ -24,11 +24,17 @@ domain-suffix, sp1.baidu.com, reject
 domain-suffix, hpd.baidu.com, reject
 domain-suffix, feed.baidu.com, reject
 domain-suffix, hm.baidu.com, reject
-domain-suffix, ulogs.umeng.com, reject
-domain-suffix, ulogs.umengcloud.com, reject
+domain-suffix, umeng.com, reject
+domain-suffix, umengcloud.com, reject
 domain-suffix, apoll.m.taobao.com, reject
 domain-suffix, at.umtrack.com, reject
 
 
+domain-suffix, optimizely.com, reject
+domain-suffix, tracking.miui.com, reject
+domain-suffix, ios.bugly.qq.com, reject
+domain-suffix, beacon.krxd.net, reject
+domain-suffix, ad.xiaomi.com, reject
+domain-suffix, urbanairship.com, reject
 
 
