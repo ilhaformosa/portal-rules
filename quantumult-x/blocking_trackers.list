@@ -12,11 +12,11 @@ domain-suffix, www.googleadservices.com, reject
 domain-suffix, google-analytics.com, reject
 domain-suffix, googletagmanager.com, reject
 
-
-domain-suffix, data.mob.com, reject
-domain-suffix, d.mob.com, reject
-domain-suffix, exc.mob.com, reject
-domain-suffix, share.mob.com, reject
+domain-suffix, mob.com, reject
+# domain-suffix, data.mob.com, reject
+# domain-suffix, d.mob.com, reject
+# domain-suffix, exc.mob.com, reject
+# domain-suffix, share.mob.com, reject
 
 domain-suffix, aliyuncs.com, reject
 domain-suffix, mmstat.com, reject
