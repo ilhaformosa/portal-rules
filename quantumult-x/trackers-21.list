@@ -50,6 +50,7 @@ domain-suffix, mob.com, reject
 
 domain-suffix, tracking.miui.com, reject
 domain-suffix, ad.xiaomi.com, reject
+domain-suffix, piccdn.igetget.com, reject
 
 domain-suffix, xdrig.com, reject
 domain-suffix, trackingio.com, reject
