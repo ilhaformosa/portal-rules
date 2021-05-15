@@ -1,0 +1,57 @@
+# IN APP TRACKERs
+
+#%% ENGs
+domain-suffix, app-measurement.com, reject
+domain-suffix, api.amplitude.com, reject
+domain-suffix, api2.branch.io, reject
+domain-suffix, launches.appsflyer.com, reject
+domain-suffix, firebase-settings.crashlytics.com, reject
+domain-suffix, sb.scorecardresearach.com, reject
+domain-suffix, amazon-adsystem.com, reject
+
+domain-suffix, www.googleadservices.com, reject
+domain-suffix, google-analytics.com, reject
+domain-suffix, googletagmanager.com, reject
+domain-suffix, ads-api.twitter.com, reject
+
+domain-suffix, urbanairship.com, reject
+domain-suffix, beacon.krxd.net, reject
+domain-suffix, optimizely.com, reject
+domain-suffix, radar.cedexis.com, reject
+
+
+
+#%% CN related
+domain-suffix, ios.bugly.qq.com, reject
+domain-suffix, wspeed.qq.com, reject
+
+domain-suffix, mmstat.com, reject
+domain-suffix, aliyuncs.com, reject
+domain-suffix, apoll.m.taobao.com, reject
+domain-suffix, baichuan.taobao.com, reject
+
+domain-suffix, sp1.baidu.com, reject
+domain-suffix, hpd.baidu.com, reject
+domain-suffix, feed.baidu.com, reject
+domain-suffix, hm.baidu.com, reject
+
+domain-suffix, umeng.com, reject
+domain-suffix, umengcloud.com, reject
+
+domain-suffix, at.umtrack.com, reject
+domain-suffix, ifs.tanx.com, reject
+domain-suffix, ifsk2.tanx.com, reject
+
+domain-suffix, mob.com, reject
+# domain-suffix, data.mob.com, reject
+# domain-suffix, d.mob.com, reject
+# domain-suffix, exc.mob.com, reject
+# domain-suffix, share.mob.com, reject
+
+domain-suffix, tracking.miui.com, reject
+domain-suffix, ad.xiaomi.com, reject
+
+domain-suffix, xdrig.com, reject
+domain-suffix, trackingio.com, reject
+
+
