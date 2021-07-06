@@ -31,7 +31,7 @@ domain-suffix, pingjs.qq.com, reject
 
 
 domain-suffix, mmstat.com, reject
-domain-suffix, aliyuncs.com, reject
+domain-suffix, beacon-api.aliyuncs.com, reject
 domain-suffix, apoll.m.taobao.com, reject
 domain-suffix, baichuan.taobao.com, reject
 
