@@ -5,15 +5,18 @@ domain-suffix, app-measurement.com, reject
 domain-suffix, api.amplitude.com, reject
 domain-suffix, api2.branch.io, reject
 domain-suffix, launches.appsflyer.com, reject
+
+
 domain-suffix, firebase-settings.crashlytics.com, reject
 domain-suffix, sb.scorecardresearach.com, reject
 domain-suffix, amazon-adsystem.com, reject
 
 
-domain-suffix, www.googleadservices.com, reject
+domain-suffix, googleadservices.com, reject
 domain-suffix, google-analytics.com, reject
 domain-suffix, googletagmanager.com, reject
 domain-suffix, ads-api.twitter.com, reject
+domain-suffix, analytics.twitter.com, reject
 
 
 domain-suffix, urbanairship.com, reject
@@ -28,10 +31,13 @@ domain-suffix, bugly.qq.com, reject
 domain-suffix, ios.bugly.qq.com, reject
 domain-suffix, wspeed.qq.com, reject
 domain-suffix, pingjs.qq.com, reject
+domain-suffix, beacon.sparta.mig.tencent-cloud.net, reject
 
 
 domain-suffix, mmstat.com, reject
 domain-suffix, beacon-api.aliyuncs.com, reject
+domain-suffix, beacon-api.aliyuncs.com, reject
+domain-suffix, apoll.m.taobao.com, reject
 domain-suffix, apoll.m.taobao.com, reject
 domain-suffix, baichuan.taobao.com, reject
 
@@ -42,13 +48,15 @@ domain-suffix, feed.baidu.com, reject
 domain-suffix, hm.baidu.com, reject
 
 
-domain-suffix, umeng.com, reject
-domain-suffix, umengcloud.com, reject
+domain-suffix, ulogs.umengcloud.com, reject
+domain-suffix, ulogs.umeng.com, reject
 
 
 domain-suffix, at.umtrack.com, reject
 domain-suffix, ifs.tanx.com, reject
 domain-suffix, ifsk2.tanx.com, reject
+domain-suffix, ef-dongfeng.tanx.com, reject
+
 
 
 domain-suffix, mob.com, reject
@@ -61,9 +69,9 @@ domain-suffix, mob.com, reject
 domain-suffix, tracking.miui.com, reject
 domain-suffix, ad.xiaomi.com, reject
 domain-suffix, piccdn.igetget.com, reject
-
-
 domain-suffix, xdrig.com, reject
 domain-suffix, trackingio.com, reject
+domain-suffix, g.cn.miaozhen.com, reject
+domain-suffix, i.gridsumdissector.com, reject
 
 
