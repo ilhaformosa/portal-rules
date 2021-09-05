@@ -48,15 +48,19 @@ domain-suffix, feed.baidu.com, reject
 domain-suffix, hm.baidu.com, reject
 
 
-domain-suffix, ulogs.umengcloud.com, reject
-domain-suffix, ulogs.umeng.com, reject
+domain-suffix, umeng.com, reject
+domain-suffix, umengcloud.com, reject
+domain-suffix, umsns.com, reject
+# domain-suffix, ulogs.umengcloud.com, reject
+# domain-suffix, ulogs.umeng.com, reject
+# domain-suffix, log.umsns.com, reject
+# domain-suffix, plbslog.umeng.com, reject
 
 
 domain-suffix, at.umtrack.com, reject
 domain-suffix, ifs.tanx.com, reject
 domain-suffix, ifsk2.tanx.com, reject
 domain-suffix, ef-dongfeng.tanx.com, reject
-
 
 
 domain-suffix, mob.com, reject
@@ -73,5 +77,4 @@ domain-suffix, xdrig.com, reject
 domain-suffix, trackingio.com, reject
 domain-suffix, g.cn.miaozhen.com, reject
 domain-suffix, i.gridsumdissector.com, reject
-
 
