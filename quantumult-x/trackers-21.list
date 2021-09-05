@@ -4,6 +4,7 @@
 domain-suffix, app-measurement.com, reject
 domain-suffix, api.amplitude.com, reject
 domain-suffix, api2.branch.io, reject
+domain-suffix, doubleclick.net, reject
 domain-suffix, launches.appsflyer.com, reject
 
 
