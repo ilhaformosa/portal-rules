@@ -28,6 +28,9 @@ domain-suffix, radar.cedexis.com, reject
 
 
 #%% CN related
+
+ip-cidr, 109.244.0.0/16, reject # wechat tracker
+
 domain-suffix, bugly.qq.com, reject
 domain-suffix, ios.bugly.qq.com, reject
 domain-suffix, wspeed.qq.com, reject
