@@ -1,9 +1,10 @@
 # > clubhouse
 
-DOMAIN-SUFFIX,clubhouseapi.com,clubhouse
-DOMAIN-SUFFIX,joinclubhouse.com,clubhouse
-DOMAIN,clubhouseprod.s3.amazonaws.com,clubhouse
-DOMAIN,clubhouse.pubnub.com,clubhouse
+host-suffix, clubhouseapi.com, clubhouse
+host-suffix, joinclubhouse.com, clubhouse
+host-suffix, clubhouseprod.s3.amazonaws.com, clubhouse
+host-suffix, clubhouse.pubnub.com, clubhouse
+host-suffix, clubhouse.pubnubapi.com, clubhouse
 
 
 host, 52.28.239.238, clubhouse
