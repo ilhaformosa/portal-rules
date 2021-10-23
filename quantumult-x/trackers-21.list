@@ -16,11 +16,15 @@ host-suffix, amazon-adsystem.com, reject
 
 host-suffix, googleadservices.com, reject
 host-suffix, google-analytics.com, reject
+host-suffix, googlesyndication.com, reject
 host-suffix, googletagmanager.com, reject
+host-suffix, g.doubleclick.net, reject
 host-suffix, ads-api.twitter.com, reject
 host-suffix, analytics.twitter.com, reject
 
 
+host-suffix, scorecardresearch.com, reject
+host-suffix, radar.cedexis.com, reject
 host-suffix, urbanairship.com, reject
 host-suffix, beacon.krxd.net, reject
 host-suffix, optimizely.com, reject
