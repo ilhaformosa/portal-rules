@@ -83,6 +83,7 @@ ip-cidr, 149.154.160.0/20, portal
 
 
 # other rules
+host-keyword, coinbase, portal
 host-keyword, 23andme, portal
 host-keyword, facebook, portal
 host-keyword, reuters, portal
@@ -91,6 +92,7 @@ host-keyword, twitter, portal
 host-keyword, twimg, portal
 
 host-suffix, amazon.com, portal
+host-suffix, coinbase.com, portal
 host-suffix, dev, portal
 host-suffix, edu, portal
 host-suffix, fb.me, portal
