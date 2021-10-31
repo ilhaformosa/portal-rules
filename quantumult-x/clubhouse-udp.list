@@ -2,12 +2,12 @@
 # use "proxy" iff the server supports udp-relay
 # use "direct" policy otherwise
 
-host-suffix, clubhouseapi.com, portal
-host-suffix, clubhouseprod.s3.amazonaws.com, portal
-host-suffix, clubhouse.pubnub.com, portal
-host-suffix, clubhouse.pubnubapi.com, portal
-host-suffix, joinclubhouse.com, portal
-host-keyword, clubhouse, portal
+#host-suffix, clubhouseapi.com, portal
+#host-suffix, clubhouseprod.s3.amazonaws.com, portal
+#host-suffix, clubhouse.pubnub.com, portal
+#host-suffix, clubhouse.pubnubapi.com, portal
+#host-suffix, joinclubhouse.com, portal
+#host-keyword, clubhouse, portal
 
 
 host-suffix, ap-oversea.agora.io, portal
