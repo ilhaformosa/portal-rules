@@ -10,8 +10,8 @@ host-suffix, cn, direct
 
 
 # time calibration service
-host-suffix, time.apple.com
-host-suffix, pool.ntp.org
+host-suffix, time.apple.com, direct
+host-suffix, pool.ntp.org, direct
 
 
 #
