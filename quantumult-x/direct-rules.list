@@ -10,16 +10,15 @@ host-suffix, cn, direct
 
 
 # time calibration service
-host-suffix, time.apple.com, direct
 host-suffix, pool.ntp.org, direct
+host-suffix, time.apple.com, direct
+host-suffix, time.asia.apple.com, direct
 
 
 #
 user-agent, WeChat*, direct
-host-suffix, wechat.com, direct
-host-suffix, qq.com, direct
 host-suffix, jd.com, direct
-
-
-
+host-suffix, qq.com, direct
+host-suffix, wechat.com, direct
+host-suffix, weixin.com, direct
 
