@@ -11,3 +11,5 @@ host-suffix, pool.ntp.org, portal
 host-suffix, time.apple.com, portal
 host-suffix, time.asia.apple.com, portal
 
+# apple iMessage services
+host-suffix, ess.apple.com, portal
