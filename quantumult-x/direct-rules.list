@@ -6,16 +6,10 @@ ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
 #ip6-cidr, 2001:4860:4860:8888/32, direct
-host-suffix, cn, direct
+#host-suffix, cn, direct //configured locally
 
 
-# time calibration service
-host-suffix, pool.ntp.org, direct
-host-suffix, time.apple.com, direct
-host-suffix, time.asia.apple.com, direct
-
-
-#
+# domestic
 user-agent, WeChat*, direct
 host-suffix, jd.com, direct
 host-suffix, qq.com, direct

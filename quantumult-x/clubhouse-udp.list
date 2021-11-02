@@ -1,7 +1,9 @@
 # clubhouse udp requests filter / use force policy accordingly
-# use "proxy" iff the server supports udp-relay
+# all tcp requests configured in portal-rules.list
+# route through udp-relay supported servers
 # use "direct" policy otherwise
 
+//tcp requests filterd in portal-rules.list
 #host-suffix, clubhouseapi.com, portal
 #host-suffix, clubhouseprod.s3.amazonaws.com, portal
 #host-suffix, clubhouse.pubnub.com, portal

@@ -1,0 +1,13 @@
+# udp requests filter (ex-clubhouse)
+# route udp requests to servers that support udp-relay
+
+
+# apple push notification service
+ip-cidr, 17.0.0.0/8, portal
+
+
+# time calibration service
+host-suffix, pool.ntp.org, portal
+host-suffix, time.apple.com, portal
+host-suffix, time.asia.apple.com, portal
+
