@@ -31,5 +31,5 @@ host, alt7-mtalk.google.com, portal
 host, alt8-mtalk.google.com, portal
 
 # others
-ip-cidr, 103.97.201.4, portal
-# ^ HKT DC
+# ip-cidr, 103.97.201.4, portal # HKT DC
+
