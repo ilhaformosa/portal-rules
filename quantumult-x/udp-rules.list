@@ -1,28 +1,33 @@
 # udp requests filter (ex-clubhouse)
 # route udp requests to servers that support udp-relay
 
-
 # apple push notification service
 ip-cidr, 17.0.0.0/8, portal
 
+# apple services
+host-suffix, ess.apple.com, portal
 
 # time calibration service
+host-suffix, ntp.nasa.gov, portal
 host-suffix, pool.ntp.org, portal
 host-suffix, time.apple.com, portal
 host-suffix, time.asia.apple.com, portal
-
-
-# apple services
-ip-cidr, 17.0.0.0/8, portal
-host-suffix, ess.apple.com, portal
-
 
 # google services
 host-suffix, cdn.ampproject.org, portal
 host-suffix, googleusercontent.com, portal
 host-suffix, googleapis.com, portal
 host-suffix, googlevideo.com, portal
-
+# Firebase Cloud Messaging
+host, mtalk.google.com, portal
+host, alt1-mtalk.google.com, portal
+host, alt2-mtalk.google.com, portal
+host, alt3-mtalk.google.com, portal
+host, alt4-mtalk.google.com, portal
+host, alt5-mtalk.google.com, portal
+host, alt6-mtalk.google.com, portal
+host, alt7-mtalk.google.com, portal
+host, alt8-mtalk.google.com, portal
 
 # others
 ip-cidr, 103.97.201.4, portal // HKT DC
