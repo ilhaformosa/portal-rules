@@ -7,9 +7,9 @@ ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
 #ip6-cidr, 2001:4860:4860:8888/32, direct
 
-# CN & geoip, previous configured locally
-host-suffix, cn, direct       // NOT configured locally \\
-geoip, cn, direct             // NOT configured locally \\
+# CN & geoip, configured locally
+#host-suffix, cn, direct       // configured locally \\
+#geoip, cn, direct             // configured locally \\
 
 # domestic
 user-agent, WeChat*, direct
