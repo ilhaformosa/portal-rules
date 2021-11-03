@@ -6,13 +6,13 @@ host-keyword, apple, portal
 host-keyword, icloud, portal
 host-suffix, apple.com, portal
 host-suffix, appstore.com, portal
-host-suffix, icloud.com, portal
-host-suffix, mzstatic.com, portal
 host-suffix, aaplimg.com, portal
 host-suffix, akadns.net, portal
 host-suffix, akamaiedge.net, portal
 host-suffix, edgekey.net, portal
+host-suffix, icloud.com, portal
 host-suffix, me.com, portal
+host-suffix, mzstatic.com, portal
 
 //ip-cidr, 17.0.0.0/8, portal // moved to udp-rules
 ip-cidr, 63.92.224.0/19, portal

@@ -15,9 +15,10 @@ host-suffix, time.asia.apple.com, portal
 
 # google services
 host-suffix, cdn.ampproject.org, portal
-host-suffix, googleusercontent.com, portal
 host-suffix, googleapis.com, portal
+host-suffix, googleusercontent.com, portal
 host-suffix, googlevideo.com, portal
+
 # Firebase Cloud Messaging
 host, mtalk.google.com, portal
 host, alt1-mtalk.google.com, portal
