@@ -1,11 +1,13 @@
+//udp redirection (ex-clubhouse) DISABLED due to privacy & security issues//
+
 # udp requests filter (ex-clubhouse)
 # route udp requests to servers that support udp-relay
 
 # apple push notification service
-ip-cidr, 17.0.0.0/8, portal
+//ip-cidr, 17.0.0.0/8, portal # USE DIRECT ROUTE
 
 # apple services
-host-suffix, ess.apple.com, portal
+//host-suffix, ess.apple.com, portal # disabled for investigation
 
 # time calibration service
 host-suffix, ntp.nasa.gov, portal
@@ -29,7 +31,3 @@ host, alt5-mtalk.google.com, portal
 host, alt6-mtalk.google.com, portal
 host, alt7-mtalk.google.com, portal
 host, alt8-mtalk.google.com, portal
-
-# others
-# ip-cidr, 103.97.201.4, portal # HKT DC
-
