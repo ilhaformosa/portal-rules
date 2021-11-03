@@ -4,7 +4,7 @@
 # apple
 host-keyword, apple, portal
 host-keyword, icloud, portal
-host-suffix, apple.com, portal
+//host-suffix, apple.com, portal
 host-suffix, appstore.com, portal
 host-suffix, icloud.com, portal
 host-suffix, mzstatic.com, portal
@@ -18,7 +18,7 @@ host-suffix, me.com, portal
 #host-suffix, ocsp.apple.com, portal
 #host-suffix, music.apple.com, portal
 
-#ip-cidr, 17.0.0.0/8, portal
+//ip-cidr, 17.0.0.0/8, portal
 ip-cidr, 63.92.224.0/19, portal
 ip-cidr, 65.199.22.0/23, portal
 ip-cidr, 139.178.128.0/18, portal
@@ -30,12 +30,12 @@ ip-cidr, 205.180.175.0/24, portal
 
 
 # google
-host-keyword, google, portal
-host-keyword, googl, portal
-host-keyword, goog, portal
+//host-keyword, google, portal
+//host-keyword, googl, portal
+//host-keyword, goog, portal
 host-keyword, gmail, portal
 host-keyword, gstatic, portal
-host-keyword, youtube, portal
+//host-keyword, youtube, portal
 host-suffix, youtu.be, portal
 
 ip-cidr, 35.190.247.0/24, portal
