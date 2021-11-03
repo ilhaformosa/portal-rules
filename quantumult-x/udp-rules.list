@@ -11,5 +11,18 @@ host-suffix, pool.ntp.org, portal
 host-suffix, time.apple.com, portal
 host-suffix, time.asia.apple.com, portal
 
-# apple iMessage services
+
+# apple services
+ip-cidr, 17.0.0.0/8, portal
 host-suffix, ess.apple.com, portal
+
+
+# google services
+host-suffix, cdn.ampproject.org, portal
+host-suffix, googleusercontent.com, portal
+host-suffix, googleapis.com, portal
+host-suffix, googlevideo.com, portal
+
+
+# others
+ip-cidr, 103.97.201.4, portal // HKT DC
