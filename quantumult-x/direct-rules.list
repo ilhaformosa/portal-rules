@@ -6,8 +6,10 @@ ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
 #ip6-cidr, 2001:4860:4860:8888/32, direct
-#host-suffix, cn, direct //configured locally
 
+# CN & geoip, previous configured locally
+host-suffix, cn, direct       // NOT configured locally \\
+geoip, cn, direct             // NOT configured locally \\
 
 # domestic
 user-agent, WeChat*, direct
@@ -15,4 +17,3 @@ host-suffix, jd.com, direct
 host-suffix, qq.com, direct
 host-suffix, wechat.com, direct
 host-suffix, weixin.com, direct
-
