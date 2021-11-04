@@ -77,6 +77,7 @@ host-suffix, xboxlive.com, portal
 host-keyword, github, portal
 host-keyword, linkedin, portal
 host-keyword, microsoft, portal
+host-keyword, officecdn, direct
 
 # telegram
 host-suffix, t.me, portal

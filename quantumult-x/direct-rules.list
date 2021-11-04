@@ -10,17 +10,16 @@
 //ip-cidr, 224.0.0.0/24, direct
 //ip6-cidr, 2001:4860:4860:8888/32, direct
 
-## CN & geoip, configured locally
-#geoip, cn, direct          # configured locally #
-
 ## time calibration service
 host-suffix, ntp.nasa.gov, direct
 host-suffix, ntp.org, direct
 host-suffix, time.apple.com, direct
 host-suffix, time.asia.apple.com, direct
 
-## CN suffix
+## CN
 host-suffix, cn, direct
+host-keyword, -cn, direct
+// geoip, cn, direct # configured locally #
 
 ## caixin news
 host-suffix, caixin.com, direct
@@ -39,29 +38,17 @@ host-suffix, amap.com, direct
 host-suffix, autonavi.com, direct
 host-suffix, dingtalk.com, direct
 host-suffix, ele.me, direct
-host-suffix, mxhichina.com, direct
-host-suffix, soku.com, direct
 host-suffix, taobao.com, direct
 host-suffix, tmall.com, direct
-host-suffix, tmall.hk, direct
-host-suffix, ykimg.com, direct
-host-suffix, youku.com, direct
 host-suffix, xiami.com, direct
 host-suffix, xiami.net, direct
 
 # baidu
 host-suffix, baidu.com, direct
-host-suffix, baidubcr.com, direct
-host-suffix, baidupan.com, direct
-host-suffix, baidupcs.com, direct
 host-suffix, bdimg.com, direct
 host-suffix, bdstatic.com, direct
-host-suffix, yunjiasu-cdn.net, direct
 
 # bilibili
-host-suffix, acgvideo.com, direct
-host-suffix, biliapi.com, direct
-host-suffix, biliapi.net, direct
 host-suffix, bilibili.com, direct
 host-suffix, bilibili.tv, direct
 host-suffix, bilivideo.com, direct
@@ -71,13 +58,18 @@ host-suffix, hdslb.com, direct
 host-suffix, feiliao.com, direct
 host-suffix, pstatp.com, direct
 host-suffix, snssdk.com, direct
-host-suffix, iesdouyin.com, direct
+host-suffix, douyin.com, direct
 host-suffix, toutiao.com, direct
 
 # cctv
 host-suffix, cctv.com, direct
 host-suffix, cctvpic.com, direct
 host-suffix, livechina.com, direct
+
+# cmb
+user-agent, cmb*, direct            # china merchants bank
+host-suffix, cmbchina.com, direct   # china merchants bank
+host-suffix, cmbimg.com, direct     # china merchants bank
 
 # didi
 host-suffix, didialift.com, direct
@@ -92,23 +84,11 @@ host-suffix, mgtv.com, direct
 # iqiyi
 host-suffix, iqiyi.com, direct
 host-suffix, iqiyipic.com, direct
-host-suffix, 71.am, direct
+host-suffix, qiyipic.com, direct
 
 # jd.com
 host-suffix, jd.com, direct
-host-suffix, jd.hk, direct
 host-suffix, jdpay.com, direct
-host-suffix, 360buyimg.com, direct
-
-# kingsoft
-host-suffix, iciba.com, direct
-host-suffix, ksosoft.com, direct
-
-# meitu
-host-suffix, meitu.com, direct
-host-suffix, meitudata.com, direct
-host-suffix, meitustat.com, direct
-host-suffix, meipai.com, direct
 
 # meituan
 host-suffix, dianping.com, direct
@@ -117,16 +97,13 @@ host-suffix, meituan.com, direct
 host-suffix, meituan.net, direct
 
 # mi.com
-host-suffix, duokan.com, direct
 host-suffix, mi.com, direct
-host-suffix, mi-img.com, direct
 host-suffix, miui.com, direct
 host-suffix, miwifi.com, direct
 host-suffix, xiaomi.com, direct
-host-suffix, xiaomi.net, direct
+host-suffix, xiaomicp.com, direct
 
 # netease
-user-agent, NeteaseMusic*, direct
 host-suffix, 163.com, direct
 host-suffix, 126.com, direct
 host-suffix, 126.net, direct
@@ -139,6 +116,7 @@ host-suffix, youdao.com, direct
 
 # sina
 host-suffix, sina.com, direct
+host-suffix, sinaapp.com, direct
 host-suffix, weibo.com, direct
 host-suffix, weibocdn.com, direct
 
@@ -146,7 +124,6 @@ host-suffix, weibocdn.com, direct
 host-suffix, sohu.com, direct
 host-suffix, sohucs.com, direct
 host-suffix, sohu-inc.com, direct
-host-suffix, v-56.com, direct
 
 # sogo
 host-suffix, sogo.com, direct
@@ -154,23 +131,14 @@ host-suffix, sogou.com, direct
 host-suffix, sogoucdn.com, direct
 
 # tencent
-user-agent, MicroMessenger Client*, direct
 user-agent, WeChat*, direct
-host-suffix, gtimg.com, direct
-host-suffix, idqqimg.com, direct
-host-suffix, igamecj.com, direct
-host-suffix, myapp.com, direct
-host-suffix, myqcloud.com, direct
 host-suffix, qq.com, direct
 host-suffix, qqmail.com, direct
 host-suffix, servicewechat.com, direct
 host-suffix, tencent.com, direct
-host-suffix, tencent-cloud.com, direct
 host-suffix, tenpay.com, direct
 host-suffix, wechat.com, direct
-host-suffix, wechatpay.com, direct
 host-suffix, weixin.com, direct
-host-suffix, weixinpay.com, direct
 
 //ip-cidr, 101.32.104.4/32, direct
 //ip-cidr, 101.32.104.41/32, direct
@@ -185,34 +153,21 @@ host-suffix, weixinpay.com, direct
 //ip-cidr, 203.205.254.0/23, direct
 
 host-keyword, wechat, direct
-host-keyword, wechatpay, direct
 host-keyword, weixin, direct
-host-keyword, weixinpay, direct
 
-# cn cdn
-host-suffix, ccgslb.com, direct
-host-suffix, ccgslb.net, direct
-host-suffix, chinanetcenter.com, direct
-host-suffix, meixincdn.com, direct
-host-suffix, ourdvs.com, direct
-host-suffix, staticdn.net, direct
-host-suffix, wangsu.com, direct
+#=======================================
 
 ## other
-host-suffix, 360.com, direct
-host-suffix, abchina.com, direct
-host-suffix, accuweather.com, direct
+host-suffix, 36kr.com, direct
+host-suffix, acfun.tv, direct
 host-suffix, aicoinstorge.com, direct
 host-suffix, air-matters.com, direct
-host-suffix, air-matters.io, direct
 host-suffix, aixifan.com, direct
-host-suffix, b612.net, direct
 host-suffix, bdatu.com, direct
 host-suffix, beitaichufang.com, direct
-host-suffix, boc.cn, direct
-//host-suffix, booking.com, direct
 host-suffix, bstatic.com, direct
 host-suffix, cailianpress.com, direct
+host-suffix, caiyunapp.com, direct
 host-suffix, camera360.com, direct
 host-suffix, chaoxing.com, direct
 host-suffix, chaoxing.com, direct
@@ -220,64 +175,89 @@ host-suffix, chinaso.com, direct
 host-suffix, chuimg.com, direct
 host-suffix, chunyu.mobi, direct
 host-suffix, cibntv.net, direct
-user-agent, cmb*, direct            # china merchants bank
-host-suffix, cmbchina.com, direct   # china merchants bank
-host-suffix, cmbimg.com, direct
+host-suffix, clouddn.com, direct
+host-suffix, cnbeta.com, direct
+host-suffix, cnbetacdn.com, direct
 host-suffix, coolapk.com, direct
+host-suffix, cootekservice.com, direct
+host-suffix, csdn.net, direct
 host-suffix, ctrip.com, direct
 host-suffix, dfcfw.com, direct
-host-suffix, dji.net, direct
+host-suffix, dgtle.com, direct
+host-suffix, dji.com, direct
 host-suffix, docschina.org, direct
 host-suffix, douban.com, direct
 host-suffix, doubanio.com, direct
 host-suffix, douyu.com, direct
-host-suffix, douyin.com, direct
+host-suffix, duokan.com, direct
 host-suffix, dxycdn.com, direct
 host-suffix, dytt8.net, direct
+host-suffix, easou.com, direct
 host-suffix, eastmoney.com, direct
 host-suffix, eudic.net, direct
 host-suffix, feng.com, direct
 host-suffix, fengkongcloud.com, direct
+host-suffix, fir.im, direct
 host-suffix, frdic.com, direct
 host-suffix, futu5.com, direct
 host-suffix, futunn.com, direct
 host-suffix, gandi.net, direct
 host-suffix, gcores.com, direct
+host-suffix, g-cores.com, direct
 host-suffix, geilicdn.com, direct
 host-suffix, getpricetag.com, direct
 host-suffix, gifshow.com, direct
 host-suffix, godic.net, direct
+host-suffix, gtimg.com, direct
 host-suffix, heweather.net, direct
 host-suffix, hicloud.com, direct
 host-suffix, hongxiu.com, direct
 host-suffix, hostbuf.com, direct
 host-suffix, huxiucdn.com, direct
 host-suffix, huya.com, direct
+host-suffix, hxcdn.net, direct
+host-suffix, iciba.com, direct
+host-suffix, ifeng.com, direct
+host-suffix, ifengimg.com, direct
 host-suffix, infinitynewtab.com, direct
 host-suffix, ithome.com, direct
 host-suffix, jianguoyun.com, direct
 host-suffix, jianshu.com, direct
-host-suffix, jianshu.io, direct
 host-suffix, jidian.im, direct
 host-suffix, kaiyanapp.com, direct
 host-suffix, kaspersky-labs.com, direct
 host-suffix, keep.com, direct
 host-suffix, keepcdn.com, direct
 host-suffix, kkmh.com, direct
+host-suffix, knewone.com, direct
 host-suffix, lanzous.com, direct
+host-suffix, le.com, direct
+host-suffix, lecloud.com, direct
+host-suffix, lemicp.com, direct
 host-suffix, licdn.com, direct
 host-suffix, luojilab.com, direct
+host-suffix, luoo.net, direct
 host-suffix, maoyan.com, direct
 host-suffix, maoyun.tv, direct
+host-suffix, miaopai.com, direct
 host-suffix, mls-cdn.com, direct
+host-suffix, mob.com, direct
 host-suffix, mobike.com, direct
 host-suffix, moke.com, direct
 host-suffix, mubu.com, direct
 host-suffix, myzaker.com, direct
 host-suffix, nim-lang-cn.org, direct
-host-suffix, qhres.com, direct
+host-suffix, oschina.net, direct
+host-suffix, ppsimg.com, direct
+host-suffix, qcloud.com, direct
+host-suffix, qdaily.com, direct
+host-suffix, qdmm.com, direct
 host-suffix, qhimg.com, direct
+host-suffix, qhres.com, direct
 host-suffix, qidian.com, direct
+host-suffix, qihucdn.com, direct
+host-suffix, qiniu.com, direct
+host-suffix, qiniucdn.com, direct
 host-suffix, qweather.com, direct
 host-suffix, qyer.com, direct
 host-suffix, qyerstatic.com, direct
@@ -286,32 +266,44 @@ host-suffix, ronghub.com, direct
 host-suffix, ruguoapp.com, direct
 host-suffix, sankuai.com, direct
 host-suffix, scomper.me, direct
+host-suffix, segmentfault.com, direct
 host-suffix, shmetro.com, direct
 host-suffix, shouqianba.com, direct
-host-suffix, sm.ms, direct
 host-suffix, smzdm.com, direct
 host-suffix, snapdrop.net, direct
 host-suffix, snwx.com, direct
+host-suffix, soku.com, direct
 host-suffix, s-reader.com, direct
 host-suffix, sspai.com, direct
 host-suffix, subhd.tv, direct
+host-suffix, suning.com, direct
 host-suffix, takungpao.com, direct
 host-suffix, teamviewer.com, direct
 host-suffix, tianyancha.com, direct
 host-suffix, tophub.today, direct
-host-suffix, uning.com, direct
-host-suffix, weico.cc, direct
+host-suffix, tudou.com, direct
+host-suffix, umetrip.com, direct
+host-suffix, upaiyun.com, direct
+host-suffix, upyun.com, direct
+host-suffix, veryzhun.com, direct
+//host-suffix, weather.com, direct
 host-suffix, weidian.com, direct
 host-suffix, xiachufang.com, direct
 host-suffix, xiaoka.tv, direct
 host-suffix, ximalaya.com, direct
 host-suffix, xinhuanet.com, direct
 host-suffix, xmcdn.com, direct
+host-suffix, xunlei.com, direct
 host-suffix, yangkeduo.com, direct
+host-suffix, yhd.com, direct
+host-suffix, yihaodianimg.com, direct
+host-suffix, yinxiang.com, direct
 host-suffix, yizhibo.com, direct
+host-suffix, ykimg.com, direct
+host-suffix, youku.com, direct
+host-suffix, zealer.com, direct
 host-suffix, zhangzishi.cc, direct
 host-suffix, zhihu.com, direct
-host-suffix, zhihuishu.com, direct
 host-suffix, zhimg.com, direct
-host-suffix, zhuihd.com, direct
+host-suffix, zimuzu.tv, direct
 host-suffix, zoho.com, direct
