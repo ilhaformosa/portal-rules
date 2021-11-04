@@ -10,13 +10,13 @@ host-keyword, aws, portal
 # apple
 host-keyword, apple, portal
 host-keyword, icloud, portal
-host-suffix, apple.com, portal
+//host-suffix, apple.com, portal
 host-suffix, appstore.com, portal
 host-suffix, aaplimg.com, portal
 host-suffix, akadns.net, portal
 host-suffix, akamaiedge.net, portal
 host-suffix, edgekey.net, portal
-host-suffix, icloud.com, portal
+//host-suffix, icloud.com, portal
 host-suffix, me.com, portal
 host-suffix, mzstatic.com, portal
 
@@ -37,9 +37,9 @@ host-suffix, clubhouse.pubnubapi.com, portal
 host-suffix, joinclubhouse.com, portal
 
 # google
-host-suffix, google.com, portal
+//host-suffix, google.com, portal
 host-suffix, youtu.be, portal
-host-suffix, youtube.com, portal
+//host-suffix, youtube.com, portal
 host-keyword, gmail, portal
 host-keyword, google, portal
 host-keyword, gstatic, portal
@@ -59,12 +59,12 @@ host-keyword, youtube, portal
 //ip-cidr, 216.239.32.0/19, portal
 
 # microsoft
-host-suffix, github.com, portal
-host-suffix, github.io, portal
-host-suffix, githubusercontent.com, portal
-host-suffix, linkedin.com, portal
+//host-suffix, github.com, portal
+//host-suffix, github.io, portal
+//host-suffix, githubusercontent.com, portal
+//host-suffix, linkedin.com, portal
 host-suffix, live.com, portal
-host-suffix, microsoft.com, portal
+//host-suffix, microsoft.com, portal
 host-suffix, ms, portal
 host-suffix, office.com, portal
 host-suffix, office365.com, portal
@@ -81,10 +81,10 @@ host-keyword, microsoft, portal
 # telegram
 host-suffix, t.me, portal
 host-suffix, tdesktop.com, portal
-host-suffix, telegram.me, portal
+//host-suffix, telegram.me, portal
 host-suffix, telesco.pe, portal
 host-suffix, telegra.ph, portal
-host-suffix, telegram.org, portal
+//host-suffix, telegram.org, portal
 host-keyword, telegram, portal
 
 //ip-cidr, 91.108.4.0/22, portal
@@ -106,10 +106,9 @@ host-keyword, telegram, portal
 host-suffix, pscp.tv, portal
 host-suffix, periscope.tv, portal
 host-suffix, t.co, portal
-host-suffix, twimg.co, portal
-host-suffix, twimg.com, portal
-host-suffix, twitpic.com, portal
-host-suffix, twitter.com, portal
+//host-suffix, twimg.co, portal
+//host-suffix, twimg.com, portal
+//host-suffix, twitter.com, portal
 host-suffix, vine.co, portal
 host-keyword, twitter, portal
 host-keyword, twimg, portal
@@ -123,31 +122,18 @@ host-keyword, twimg, portal
 //ip-cidr, 202.160.128.0/22, portal
 //ip-cidr, 209.237.192.0/19, portal
 
-# paypal
-host-suffix, paypal.com, portal
-host-suffix, paypal.me, portal
-host-suffix, paypalobjects.com, portal
-host-keyword, paypal, portal
-
 ## other rules
 host-suffix, dev, portal
 host-suffix, edu, portal
 host-suffix, gov, portal
-host-suffix, mil, portal
 
-host-suffix, kraken.com, portal
-host-suffix, twitch.tv, portal
-host-suffix, wsj.com, portal
-host-suffix, wsj.net, portal
-host-suffix, dowjones.io, portal
-
+//host-suffix, kraken.com, portal
 host-keyword, 23andme, portal
-host-keyword, akamai, portal
 host-keyword, cloudflare, portal
 host-keyword, coinbase, portal
+host-keyword, dowjones, portal
 host-keyword, facebook, portal
 host-keyword, reuters, portal
 host-keyword, speedtest, portal
 host-keyword, twitch, portal
 host-keyword, wsj, portal
-host-keyword, dowjones, portal
