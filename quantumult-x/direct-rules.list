@@ -27,3 +27,9 @@ host-suffix, jd.com, direct
 host-suffix, qq.com, direct
 host-suffix, wechat.com, direct
 host-suffix, weixin.com, direct
+host-suffix, taobao.com, direct
+host-suffix, alicdn.com, direct
+host-suffix, aliyun.com, direct
+host-suffix, aliyuncs.com, direct
+host-suffix, alipay.com, direct
+host-suffix, alipayobjects.com, direct
