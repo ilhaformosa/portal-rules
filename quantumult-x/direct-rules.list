@@ -48,6 +48,11 @@ host-suffix, baidu.com, direct
 host-suffix, bdimg.com, direct
 host-suffix, bdstatic.com, direct
 
+# banks
+host-suffix, citic, direct
+host-suffix, citicbank.com, direct
+host-suffix, ecitic.com, direct
+
 # bilibili
 host-suffix, bilibili.com, direct
 host-suffix, bilibili.tv, direct
@@ -66,10 +71,12 @@ host-suffix, cctv.com, direct
 host-suffix, cctvpic.com, direct
 host-suffix, livechina.com, direct
 
-# cmb
-user-agent, cmb*, direct            # china merchants bank
-host-suffix, cmbchina.com, direct   # china merchants bank
-host-suffix, cmbimg.com, direct     # china merchants bank
+# china merchants group
+user-agent, cmb*, direct
+host-suffix, cmbchina.com, direct
+host-suffix, cmbimg.com, direct
+host-suffix, cmschina.com, direct
+host-suffix, myqcloud.com, direct
 
 # didi
 host-suffix, didialift.com, direct
@@ -89,6 +96,8 @@ host-suffix, qiyipic.com, direct
 # jd.com
 host-suffix, jd.com, direct
 host-suffix, jdpay.com, direct
+host-suffix, 360buyimg.com, direct
+host-suffix, 300hu.com, direct
 
 # meituan
 host-suffix, dianping.com, direct
@@ -220,6 +229,7 @@ host-suffix, iciba.com, direct
 host-suffix, ifeng.com, direct
 host-suffix, ifengimg.com, direct
 host-suffix, infinitynewtab.com, direct
+host-suffix, intsig.net, direct
 host-suffix, ithome.com, direct
 host-suffix, jianguoyun.com, direct
 host-suffix, jianshu.com, direct
