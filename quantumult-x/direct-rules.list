@@ -14,6 +14,12 @@
 #host-suffix, cn, direct       // configured locally \\
 #geoip, cn, direct             // configured locally \\
 
+# time calibration service
+host-suffix, ntp.nasa.gov, direct
+host-suffix, pool.ntp.org, direct
+host-suffix, time.apple.com, direct
+host-suffix, time.asia.apple.com, direct
+
 # domestic
 user-agent, WeChat*, direct
 host-suffix, jd.com, direct
