@@ -30,11 +30,11 @@ host-suffix, mzstatic.com, portal
 
 # clubhouse / tcp requests filter / udp requests use clubhouse-udp.list
 host-keyword, clubhouse, portal
-host-suffix, clubhouseapi.com, portal
-host-suffix, clubhouseprod.s3.amazonaws.com, portal
-host-suffix, clubhouse.pubnub.com, portal
-host-suffix, clubhouse.pubnubapi.com, portal
-host-suffix, joinclubhouse.com, portal
+//host-suffix, clubhouseapi.com, portal
+//host-suffix, clubhouseprod.s3.amazonaws.com, portal
+//host-suffix, clubhouse.pubnub.com, portal
+//host-suffix, clubhouse.pubnubapi.com, portal
+//host-suffix, joinclubhouse.com, portal
 
 # google
 //host-suffix, google.com, portal
@@ -65,7 +65,6 @@ host-keyword, youtube, portal
 //host-suffix, linkedin.com, portal
 host-suffix, live.com, portal
 //host-suffix, microsoft.com, portal
-host-suffix, ms, portal
 host-suffix, office.com, portal
 host-suffix, office365.com, portal
 host-suffix, outlook.com, portal
