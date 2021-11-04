@@ -82,6 +82,10 @@ host-suffix, myqcloud.com, direct
 host-suffix, didialift.com, direct
 host-suffix, didiglobal.com, direct
 host-suffix, udache.com, direct
+host-suffix, xiaojukeji.com, direct
+host-suffix, didistatic.com, direct
+host-suffix, chengxinyouxuan.com, direct
+host-suffix, diditaxi.com.cn, direct
 
 # hunan tv
 host-suffix, hitv.com, direct
@@ -107,10 +111,14 @@ host-suffix, meituan.net, direct
 
 # mi.com
 host-suffix, mi.com, direct
+host-suffix, mi-img.com, direct
+host-suffix, miot-spec.org, direct
 host-suffix, miui.com, direct
 host-suffix, miwifi.com, direct
 host-suffix, xiaomi.com, direct
+host-suffix, xiaomi.net, direct
 host-suffix, xiaomicp.com, direct
+host-suffix, xiaomiyoupin.com, direct
 
 # netease
 host-suffix, 163.com, direct
@@ -164,12 +172,16 @@ host-suffix, weixin.com, direct
 host-keyword, wechat, direct
 host-keyword, weixin, direct
 
-#=======================================
+# cdn
+host-suffix, cdntips.net, direct
 
+#=======================================
 ## other
+host-suffix, 21cn.com, direct
 host-suffix, 36kr.com, direct
 host-suffix, acfun.tv, direct
 host-suffix, aicoinstorge.com, direct
+host-suffix, aihuishou.com, direct
 host-suffix, air-matters.com, direct
 host-suffix, aixifan.com, direct
 host-suffix, bdatu.com, direct
