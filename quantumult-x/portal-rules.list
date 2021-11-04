@@ -79,6 +79,8 @@ host-suffix, clubhouse.pubnubapi.com, portal
 host-suffix, joinclubhouse.com, portal
 
 # other rules
+host-keyword, amazon, portal
+host-keyword, aws, portal
 host-keyword, coinbase, portal
 host-keyword, 23andme, portal
 host-keyword, facebook, portal
@@ -86,12 +88,14 @@ host-keyword, reuters, portal
 host-keyword, speedtest, portal
 host-keyword, twitter, portal
 host-keyword, twimg, portal
+host-keyword, wsj, portal
+host-keyword, dowjones, portal
 
-host-suffix, amazon.com, portal
-host-suffix, coinbase.com, portal
 host-suffix, dev, portal
 host-suffix, edu, portal
 host-suffix, fb.me, portal
 host-suffix, pscp.tv, portal
 host-suffix, t.co, portal
 host-suffix, wsj.com, portal
+host-suffix, wsj.net, portal
+host-suffix, dowjones.io, portal
