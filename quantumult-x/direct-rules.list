@@ -1,5 +1,4 @@
 ### direct filters
-
 ## local addresses, configured locally
 //host-suffix, local, direct
 //ip-cidr, 10.0.0.0/8, direct
@@ -19,6 +18,9 @@ host-suffix, ntp.nasa.gov, direct
 host-suffix, ntp.org, direct
 host-suffix, time.apple.com, direct
 host-suffix, time.asia.apple.com, direct
+
+## CN suffix
+host-suffix, cn, direct
 
 ## caixin news
 host-suffix, caixin.com, direct
@@ -243,8 +245,6 @@ host-suffix, tjupt.org, direct
 host-suffix, totheglory.im, direct
 
 ## other
-host-suffix, cn, direct
-
 host-suffix, 360.com, direct
 host-suffix, abchina.com, direct
 host-suffix, accuweather.com, direct
