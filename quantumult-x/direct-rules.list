@@ -1,28 +1,29 @@
 ### direct filters
 ## local addresses, configured locally
 //host-suffix, local, direct
+//host-suffix, local, direct
 //ip-cidr, 10.0.0.0/8, direct
 //ip-cidr, 17.0.0.0/8, direct
 //ip-cidr, 100.0.0.0/8, direct
 //ip-cidr, 127.0.0.0/8, direct
 //ip-cidr, 172.16.0.0/12, direct
 //ip-cidr, 192.168.0.0/16, direct
-//ip-cidr, 224.0.0.0/24, direct
+#//ip-cidr, 224.0.0.0/4, direct
 //ip6-cidr, 2001:4860:4860:8888/32, direct
 
 ## time calibration service
 host-suffix, ntp.nasa.gov, direct
 host-suffix, ntp.org, direct
 host-suffix, time.apple.com, direct
-host-suffix, time.asia.apple.com, direct
+//host-suffix, time.asia.apple.com, direct
 
 ## CN
 host-suffix, cn, direct
 host-keyword, -cn, direct
-// geoip, cn, direct # configured locally #
+// geoip, cn, direct # configured locally //
 
 ## caixin news
-host-suffix, caixin.com, direct
+//host-suffix, caixin.com, direct
 host-keyword, caixin, direct
 
 # alibaba
@@ -79,13 +80,13 @@ host-suffix, cmschina.com, direct
 host-suffix, myqcloud.com, direct
 
 # didi
+host-suffix, chengxinyouxuan.com, direct
 host-suffix, didialift.com, direct
 host-suffix, didiglobal.com, direct
+host-suffix, didistatic.com, direct
+//host-suffix, diditaxi.com.cn, direct
 host-suffix, udache.com, direct
 host-suffix, xiaojukeji.com, direct
-host-suffix, didistatic.com, direct
-host-suffix, chengxinyouxuan.com, direct
-host-suffix, diditaxi.com.cn, direct
 
 # hunan tv
 host-suffix, hitv.com, direct
@@ -151,11 +152,11 @@ host-suffix, sogoucdn.com, direct
 user-agent, WeChat*, direct
 host-suffix, qq.com, direct
 host-suffix, qqmail.com, direct
-host-suffix, servicewechat.com, direct
+//host-suffix, servicewechat.com, direct
 host-suffix, tencent.com, direct
 host-suffix, tenpay.com, direct
-host-suffix, wechat.com, direct
-host-suffix, weixin.com, direct
+//host-suffix, wechat.com, direct
+//host-suffix, weixin.com, direct
 
 //ip-cidr, 101.32.104.4/32, direct
 //ip-cidr, 101.32.104.41/32, direct
@@ -172,10 +173,8 @@ host-suffix, weixin.com, direct
 host-keyword, wechat, direct
 host-keyword, weixin, direct
 
-# cdn
-host-suffix, cdntips.net, direct
-
 #=======================================
+
 ## other
 host-suffix, 21cn.com, direct
 host-suffix, 36kr.com, direct
@@ -190,6 +189,7 @@ host-suffix, bstatic.com, direct
 host-suffix, cailianpress.com, direct
 host-suffix, caiyunapp.com, direct
 host-suffix, camera360.com, direct
+host-suffix, cdntips.net, direct
 host-suffix, chaoxing.com, direct
 host-suffix, chaoxing.com, direct
 host-suffix, chinaso.com, direct
@@ -318,6 +318,7 @@ host-suffix, xmcdn.com, direct
 host-suffix, xunlei.com, direct
 host-suffix, yangkeduo.com, direct
 host-suffix, yhd.com, direct
+host-suffix, yicai.com, direct
 host-suffix, yihaodianimg.com, direct
 host-suffix, yinxiang.com, direct
 host-suffix, yizhibo.com, direct

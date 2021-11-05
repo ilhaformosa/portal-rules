@@ -2,7 +2,7 @@
 ### use #force policy# to modify
 
 # amazon
-host-suffix, amazonaws.com, portal
+//host-suffix, amazonaws.com, portal
 host-suffix, cloudfront.net, portal
 host-keyword, amazon, portal
 host-keyword, aws, portal
@@ -68,11 +68,11 @@ host-suffix, live.com, portal
 host-suffix, office.com, portal
 host-suffix, office365.com, portal
 host-suffix, outlook.com, portal
-host-suffix, visualstudio.com, portal
-host-suffix, windows.com, portal
-host-suffix, windowsupdate.com, portal
-host-suffix, xbox.com, portal
-host-suffix, xboxlive.com, portal
+//host-suffix, visualstudio.com, portal
+//host-suffix, windows.com, portal
+//host-suffix, windowsupdate.com, portal
+//host-suffix, xbox.com, portal
+//host-suffix, xboxlive.com, portal
 host-keyword, github, portal
 host-keyword, linkedin, portal
 host-keyword, microsoft, portal
@@ -126,6 +126,7 @@ host-keyword, twimg, portal
 host-suffix, dev, portal
 host-suffix, edu, portal
 host-suffix, gov, portal
+host-suffix, us, portal
 
 //host-suffix, kraken.com, portal
 host-keyword, 23andme, portal
