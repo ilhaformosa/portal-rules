@@ -55,10 +55,11 @@ host-suffix, citicbank.com, direct
 host-suffix, ecitic.com, direct
 
 # bilibili
-host-suffix, bilibili.com, direct
-host-suffix, bilibili.tv, direct
+//host-suffix, bilibili.com, direct
+//host-suffix, bilibili.tv, direct
 host-suffix, bilivideo.com, direct
 host-suffix, hdslb.com, direct
+host-keyword, bilibili, direct
 
 # byte dance
 host-suffix, feiliao.com, direct
@@ -73,7 +74,7 @@ host-suffix, cctvpic.com, direct
 host-suffix, livechina.com, direct
 
 # china merchants group
-user-agent, cmb*, direct
+//user-agent, cmb*, direct
 host-suffix, cmbchina.com, direct
 host-suffix, cmbimg.com, direct
 host-suffix, cmschina.com, direct
@@ -149,7 +150,7 @@ host-suffix, sogou.com, direct
 host-suffix, sogoucdn.com, direct
 
 # tencent
-user-agent, WeChat*, direct
+//user-agent, WeChat*, direct
 host-suffix, qq.com, direct
 host-suffix, qqmail.com, direct
 //host-suffix, servicewechat.com, direct
