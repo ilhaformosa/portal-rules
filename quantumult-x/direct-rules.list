@@ -1,15 +1,15 @@
 ### direct filters
 ## local addresses, configured locally
 //host-suffix, local, direct
-//host-suffix, local, direct
+//host-suffix, localhost, direct
 //ip-cidr, 10.0.0.0/8, direct
 //ip-cidr, 17.0.0.0/8, direct
-//ip-cidr, 100.0.0.0/8, direct
+//ip-cidr, 100.64.0.0/8, direct
 //ip-cidr, 127.0.0.0/8, direct
 //ip-cidr, 172.16.0.0/12, direct
 //ip-cidr, 192.168.0.0/16, direct
-#//ip-cidr, 224.0.0.0/4, direct
-//ip6-cidr, 2001:4860:4860:8888/32, direct
+//ip-cidr, 224.0.0.0/4, direct
+//ip6-cidr, fe80::/10, direct
 
 ## time calibration service
 host-suffix, ntp.nasa.gov, direct
@@ -27,25 +27,29 @@ host-keyword, -cn, direct
 host-keyword, caixin, direct
 
 # alibaba
-host-suffix, alibaba.com, direct
-host-suffix, alibabausercontent.com, direct
-host-suffix, alicdn.com, direct
-host-suffix, alikunlun.com, direct
-host-suffix, alipay.com, direct
-host-suffix, alipayobjects.com, direct
-host-suffix, aliyun.com, direct
-host-suffix, aliyuncs.com, direct
+//host-suffix, alibaba.com, direct
+//host-suffix, alibabausercontent.com, direct
+host-keyword, alibaba, direct
+host-keyword, alicdn, direct
+//host-suffix, alipay.com, direct
+//host-suffix, alipayobjects.com, direct
+host-keyword, alipay, direct
+//host-suffix, aliyun.com, direct
+//host-suffix, aliyuncs.com, direct
+host-keyword, aliyun, direct
 host-suffix, amap.com, direct
-host-suffix, autonavi.com, direct
-host-suffix, dingtalk.com, direct
-host-suffix, ele.me, direct
-host-suffix, taobao.com, direct
-host-suffix, tmall.com, direct
+host-keyword, taobao, direct
+host-keyword, tmall, direct
+
+host-suffix, autonavi.com, direct // map service
+host-suffix, dingtalk.com, direct // dingding
+host-suffix, ele.me, direct // eleme
 host-suffix, xiami.com, direct
 host-suffix, xiami.net, direct
 
 # baidu
-host-suffix, baidu.com, direct
+//host-suffix, baidu.com, direct
+host-keyword, baidu, direct
 host-suffix, bdimg.com, direct
 host-suffix, bdstatic.com, direct
 
@@ -57,9 +61,9 @@ host-suffix, ecitic.com, direct
 # bilibili
 //host-suffix, bilibili.com, direct
 //host-suffix, bilibili.tv, direct
+host-keyword, bilibili, direct
 host-suffix, bilivideo.com, direct
 host-suffix, hdslb.com, direct
-host-keyword, bilibili, direct
 
 # byte dance
 host-suffix, feiliao.com, direct
@@ -150,7 +154,8 @@ host-suffix, sogou.com, direct
 host-suffix, sogoucdn.com, direct
 
 # tencent
-//user-agent, WeChat*, direct
+user-agent, WeChat*, direct
+host-suffix, gtimg.com, direct
 host-suffix, qq.com, direct
 host-suffix, qqmail.com, direct
 //host-suffix, servicewechat.com, direct
@@ -158,6 +163,9 @@ host-suffix, tencent.com, direct
 host-suffix, tenpay.com, direct
 //host-suffix, wechat.com, direct
 //host-suffix, weixin.com, direct
+
+host-keyword, wechat, direct
+host-keyword, weixin, direct
 
 //ip-cidr, 101.32.104.4/32, direct
 //ip-cidr, 101.32.104.41/32, direct
@@ -170,9 +178,6 @@ host-suffix, tenpay.com, direct
 //ip-cidr, 129.226.107.244/32, direct
 //ip-cidr, 182.254.116.0/24, direct
 //ip-cidr, 203.205.254.0/23, direct
-
-host-keyword, wechat, direct
-host-keyword, weixin, direct
 
 #=======================================
 
@@ -230,11 +235,11 @@ host-suffix, geilicdn.com, direct
 host-suffix, getpricetag.com, direct
 host-suffix, gifshow.com, direct
 host-suffix, godic.net, direct
-host-suffix, gtimg.com, direct
 host-suffix, heweather.net, direct
 host-suffix, hicloud.com, direct
 host-suffix, hongxiu.com, direct
 host-suffix, hostbuf.com, direct
+host-suffix, hupu.com, direct
 host-suffix, huxiucdn.com, direct
 host-suffix, huya.com, direct
 host-suffix, hxcdn.net, direct
@@ -309,7 +314,6 @@ host-suffix, umetrip.com, direct
 host-suffix, upaiyun.com, direct
 host-suffix, upyun.com, direct
 host-suffix, veryzhun.com, direct
-//host-suffix, weather.com, direct
 host-suffix, weidian.com, direct
 host-suffix, xiachufang.com, direct
 host-suffix, xiaoka.tv, direct

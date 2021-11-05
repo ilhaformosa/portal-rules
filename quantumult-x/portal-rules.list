@@ -3,7 +3,7 @@
 
 # amazon
 //host-suffix, amazonaws.com, portal
-host-suffix, cloudfront.net, portal
+host-keyword, cloudfront, portal
 host-keyword, amazon, portal
 host-keyword, aws, portal
 
@@ -73,6 +73,7 @@ host-suffix, outlook.com, portal
 //host-suffix, windowsupdate.com, portal
 //host-suffix, xbox.com, portal
 //host-suffix, xboxlive.com, portal
+host-keyword, azureedge, portal
 host-keyword, github, portal
 host-keyword, linkedin, portal
 host-keyword, microsoft, portal
@@ -82,10 +83,10 @@ host-keyword, officecdn, direct
 host-suffix, t.me, portal
 host-suffix, tdesktop.com, portal
 //host-suffix, telegram.me, portal
-host-suffix, telesco.pe, portal
-host-suffix, telegra.ph, portal
 //host-suffix, telegram.org, portal
 host-keyword, telegram, portal
+host-suffix, telesco.pe, portal
+host-suffix, telegra.ph, portal
 
 //ip-cidr, 91.108.4.0/22, portal
 //ip-cidr, 91.108.8.0/22, portal
@@ -130,6 +131,7 @@ host-suffix, us, portal
 
 //host-suffix, kraken.com, portal
 host-keyword, 23andme, portal
+host-keyword, akamai, portal
 host-keyword, cloudflare, portal
 host-keyword, coinbase, portal
 host-keyword, dowjones, portal
