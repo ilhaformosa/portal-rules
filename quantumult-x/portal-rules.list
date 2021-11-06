@@ -38,12 +38,14 @@ host-keyword, clubhouse, portal
 
 # google
 //host-suffix, google.com, portal
-host-suffix, youtu.be, portal
 //host-suffix, youtube.com, portal
+host-keyword, ampproject, portal
 host-keyword, gmail, portal
 host-keyword, google, portal
 host-keyword, gstatic, portal
 host-keyword, youtube, portal
+host-suffix, pki.goog, portal
+host-suffix, youtu.be, portal
 
 //ip-cidr, 35.190.247.0/24, portal
 //ip-cidr, 64.233.160.0/19, portal
