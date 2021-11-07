@@ -2,7 +2,6 @@
 ### use #force policy# to modify
 
 # amazon
-//host-suffix, amazonaws.com, portal
 host-keyword, cloudfront, portal
 host-keyword, amazon, portal
 host-keyword, aws, portal
@@ -10,13 +9,11 @@ host-keyword, aws, portal
 # apple
 host-keyword, apple, portal
 host-keyword, icloud, portal
-//host-suffix, apple.com, portal
 host-suffix, appstore.com, portal
 host-suffix, aaplimg.com, portal
 host-suffix, akadns.net, portal
 host-suffix, akamaiedge.net, portal
 host-suffix, edgekey.net, portal
-//host-suffix, icloud.com, portal
 host-suffix, me.com, portal
 host-suffix, mzstatic.com, portal
 
@@ -37,13 +34,12 @@ host-keyword, clubhouse, portal
 //host-suffix, joinclubhouse.com, portal
 
 # google
-//host-suffix, google.com, portal
-//host-suffix, youtube.com, portal
 host-keyword, ampproject, portal
 host-keyword, gmail, portal
 host-keyword, google, portal
 host-keyword, gstatic, portal
 host-keyword, youtube, portal
+host-keyword, ytimg, portal
 host-suffix, pki.goog, portal
 host-suffix, youtu.be, portal
 
@@ -61,12 +57,8 @@ host-suffix, youtu.be, portal
 //ip-cidr, 216.239.32.0/19, portal
 
 # microsoft
-//host-suffix, github.com, portal
-//host-suffix, github.io, portal
 //host-suffix, githubusercontent.com, portal
-//host-suffix, linkedin.com, portal
 host-suffix, live.com, portal
-//host-suffix, microsoft.com, portal
 host-suffix, office.com, portal
 host-suffix, office365.com, portal
 host-suffix, outlook.com, portal
@@ -109,9 +101,6 @@ host-suffix, telegra.ph, portal
 host-suffix, pscp.tv, portal
 host-suffix, periscope.tv, portal
 host-suffix, t.co, portal
-//host-suffix, twimg.co, portal
-//host-suffix, twimg.com, portal
-//host-suffix, twitter.com, portal
 host-suffix, vine.co, portal
 host-keyword, twitter, portal
 host-keyword, twimg, portal
@@ -130,7 +119,6 @@ host-suffix, dev, portal
 host-suffix, edu, portal
 host-suffix, gov, portal
 host-suffix, us, portal
-
 //host-suffix, kraken.com, portal
 host-keyword, 23andme, portal
 host-keyword, akamai, portal

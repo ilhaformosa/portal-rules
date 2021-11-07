@@ -3,7 +3,7 @@
 //host-suffix, local, direct
 //host-suffix, localhost, direct
 //ip-cidr, 10.0.0.0/8, direct
-//ip-cidr, 17.0.0.0/8, direct
+//ip-cidr, 17.0.0.0/8, direct // apple reserved
 //ip-cidr, 100.64.0.0/10, direct
 //ip-cidr, 127.0.0.0/8, direct
 //ip-cidr, 172.16.0.0/12, direct
@@ -17,13 +17,11 @@ host-suffix, ntp.org, direct
 host-suffix, time.apple.com, direct
 host-suffix, time.asia.apple.com, direct
 
-## CN
+## CN // geoip, cn, direct # configured locally //
 host-suffix, cn, direct
 host-keyword, -cn, direct
-// geoip, cn, direct # configured locally //
 
 ## caixin news
-//host-suffix, caixin.com, direct
 host-keyword, caixin, direct
 
 # alibaba
@@ -48,7 +46,6 @@ host-suffix, xiami.com, direct
 host-suffix, xiami.net, direct
 
 # baidu
-//host-suffix, baidu.com, direct
 host-keyword, baidu, direct
 host-suffix, bdimg.com, direct
 host-suffix, bdstatic.com, direct
@@ -59,8 +56,6 @@ host-suffix, citicbank.com, direct
 host-suffix, ecitic.com, direct
 
 # bilibili
-//host-suffix, bilibili.com, direct
-//host-suffix, bilibili.tv, direct
 host-keyword, bilibili, direct
 host-suffix, bilivideo.com, direct
 host-suffix, hdslb.com, direct
@@ -111,7 +106,7 @@ host-suffix, 300hu.com, direct
 
 # meituan
 host-suffix, dianping.com, direct
-host-suffix, dpfile.com, direct
+//host-suffix, dpfile.com, direct
 host-suffix, meituan.com, direct
 host-suffix, meituan.net, direct
 
@@ -121,10 +116,11 @@ host-suffix, mi-img.com, direct
 host-suffix, miot-spec.org, direct
 host-suffix, miui.com, direct
 host-suffix, miwifi.com, direct
-host-suffix, xiaomi.com, direct
-host-suffix, xiaomi.net, direct
-host-suffix, xiaomicp.com, direct
-host-suffix, xiaomiyoupin.com, direct
+//host-suffix, xiaomi.com, direct
+//host-suffix, xiaomi.net, direct
+//host-suffix, xiaomicp.com, direct
+//host-suffix, xiaomiyoupin.com, direct
+host-keyword, xiaomi, direct
 
 # netease
 host-suffix, 163.com, direct
@@ -165,7 +161,7 @@ host-suffix, tenpay.com, direct
 //host-suffix, weixin.com, direct
 
 host-keyword, wechat, direct
-host-keyword, weixin, direct
+//host-keyword, weixin, direct // host keyword covered by qq.com
 
 //ip-cidr, 101.32.104.4/32, direct
 //ip-cidr, 101.32.104.41/32, direct
