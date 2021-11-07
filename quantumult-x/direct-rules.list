@@ -29,6 +29,7 @@ host-keyword, caixin, direct
 //host-suffix, alibabausercontent.com, direct
 host-keyword, alibaba, direct
 host-keyword, alicdn, direct
+host-keyword, alikunlun, direct
 //host-suffix, alipay.com, direct
 //host-suffix, alipayobjects.com, direct
 host-keyword, alipay, direct
