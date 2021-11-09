@@ -15,7 +15,6 @@ host, beacon.krxd.net, reject
 host, radar.cedexis.com, reject
 
 # apple
-host-suffix, iadsdk.apple.com, reject
 host-suffix, ads.internal.unity3d.com, reject
 host-suffix, ads.prd.ie.internal.unity3d.com, reject
 host-suffix, unityads.unity3d.com, reject
@@ -161,6 +160,7 @@ host-keyword, admaster, reject
 host-keyword, adsage, reject
 host-keyword, adsmogo, reject
 host-keyword, adsrvmedia, reject
+host-keyword, adsrvr, reject
 host-keyword, adwords, reject
 host-keyword, adservice, reject
 host-keyword, domob, reject
@@ -173,6 +173,7 @@ host-keyword, omgmta, reject
 host-keyword, openx, reject
 host-keyword, partnerad, reject
 host-keyword, pingfore, reject
+host-keyword, rtbasia, reject
 host-keyword, supersonicads, reject
 host-keyword, uedas, reject
 host-keyword, wlmonitor, reject

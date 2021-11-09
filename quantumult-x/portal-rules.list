@@ -119,6 +119,10 @@ host-suffix, dev, portal
 host-suffix, edu, portal
 host-suffix, gov, portal
 host-suffix, us, portal
+
+host-suffix, bit.ly, portal
+host-suffix, ipip.net, portal
+
 //host-suffix, kraken.com, portal
 host-keyword, 23andme, portal
 host-keyword, akamai, portal
