@@ -26,7 +26,6 @@ host-suffix, unityads.unity3d.com, reject
 host-suffix, app-measurement.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, googleadservices.com, reject
-host-suffix, googleadsserving.cn, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, googletagmanager.com, reject
 host-suffix, google-analytics.com, reject
@@ -77,13 +76,11 @@ host, ad.toutiao.com, reject
 host, pangolin.snssdk.com, reject
 
 # caixin news
+host-keyword, jpush, reject
 host-suffix, adsame.com, reject
 host-suffix, apollo.caixin.com, reject
 host-suffix, gg.caixin.com, reject
 host-suffix, growingio.com, reject
-host-suffix, logstat.caixin.com, reject
-host-suffix, promote.caixin.com, reject
-
 //host, dolphin-center.adsame.com, reject
 //host, api.growingio.com, reject
 //host, messages.growingio.com, reject
