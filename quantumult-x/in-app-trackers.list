@@ -78,11 +78,16 @@ host, pangolin.snssdk.com, reject
 
 # caixin news
 host-suffix, adsame.com, reject
+host-suffix, gg.caixin.com, reject
 host-suffix, growingio.com, reject
 //host, dolphin-center.adsame.com, reject
 //host, api.growingio.com, reject
 //host, messages.growingio.com, reject
 //host, tags.growingio.com, reject
+//host, k.caixin.com, reject
+//host, mapiv5.caixin.com, reject
+//host, mappsv5.caixin.com, reject
+//host, msgapi.caixin.com, reject
 
 # china telecom
 host, ad.21cn.com, reject
