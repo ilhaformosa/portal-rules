@@ -2,6 +2,7 @@
 
 ## general services
 # general list
+host-keyword, adservice, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, optimizely.com, reject
@@ -70,12 +71,47 @@ host, mobads-logs.baidu.com, reject
 host, nadvideo2.baidu.com, reject
 host, nsclick.baidu.com, reject
 
+# bytedance
+host-suffix, pangolin-sdk-toutiao.com, reject
+host, ad.toutiao.com, reject
+host, pangolin.snssdk.com, reject
+
+# china telecom
+host, ad.21cn.com, reject
+host, ad.k.21cn.com, reject
+host, admarket.21cn.com, reject
+host, adshows.21cn.com, reject
+
+# hunan tv
+host-suffix, da.mgtv.com, reject
+host-suffix, da.hunantv.com, reject
+host-suffix, log.hunantv.com, reject
+host-suffix, v2.hunantv.com, reject
+
+# iqiyi
+host, t7z.cupid.iqiyi.com, reject
+host, t7z.cupid.ptqy.gitv.tv, reject
+ip-cidr, 101.227.97.240/32, reject
+ip-cidr, 101.227.200.11/32, reject
+ip-cidr, 101.227.200.28/32, reject
+ip-cidr, 124.192.153.42/32, reject
+
 # mob.com
 host-suffix, mob.com, reject
 //host-suffix, data.mob.com, reject
 //host-suffix, d.mob.com, reject
 //host-suffix, exc.mob.com, reject
 //host-suffix, share.mob.com, reject
+
+# sina
+host-suffix, alitui.weibo.com, reject
+host-suffix, beacon.sina.com.cn, reject
+host, adimg.uve.weibo.com, reject
+host, adimg.vue.weibo.com, reject
+host, u1.img.mobile.sina.cn, reject
+host, sax.sina.com.cn, reject
+host, saxs.sina.com.cn, reject
+host, saxn.sina.com.cn, reject
 
 # tencent
 ip-cidr, 109.244.0.0/16, reject # wechat tracker
@@ -141,7 +177,6 @@ host, sugar.zhihu.com, reject
 host, 118.89.204.198, reject
 ip-cidr, 118.89.204.198/32, reject
 ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
-
 
 // under construction
 # others
