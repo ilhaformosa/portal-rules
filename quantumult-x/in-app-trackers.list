@@ -8,19 +8,15 @@ host-suffix, appsflyer.com, reject
 host-suffix, optimizely.com, reject
 host-suffix, scorecardresearch.com, reject
 host-suffix, urbanairship.com, reject
-host-suffix, ads-api.twitter.com, reject
-host-suffix, analytics.twitter.com, reject
 host-suffix, api.amplitude.com, reject
 host-suffix, api2.branch.io, reject
 host-suffix, beacon.krxd.net, reject
 host-suffix, radar.cedexis.com, reject
 
-# apple
-host-suffix, ads.internal.unity3d.com, reject
-host-suffix, ads.prd.ie.internal.unity3d.com, reject
-host-suffix, unityads.unity3d.com, reject
-
-# facebook (collecting)
+# facebook
+host-suffix, analytics.facebook.com, reject
+host-suffix, connect.facebook.net, reject
+host-suffix, pixel.facebook.com, reject
 
 # google
 host-suffix, app-measurement.com, reject
@@ -30,7 +26,7 @@ host-suffix, googlesyndication.com, reject
 host-suffix, googletagmanager.com, reject
 host-suffix, google-analytics.com, reject
 host-suffix, ads.youtube.com, reject
-host-suffix, firebase-settings.crashlytics.com, reject
+//host-suffix, firebase-settings.crashlytics.com, reject
 
 # microsoft
 host-suffix, ads.msn.com, reject
@@ -38,6 +34,12 @@ host-suffix, ads1.msn.com, reject
 host-suffix, ads2.msn.com, reject
 host-suffix, rads.msn.com, reject
 host-suffix, mobileads.msn.com, reject
+
+# twitter
+host-suffix, ads-twitter.com, reject
+host-suffix, ewetwitter.com, reject
+host-suffix, plaguealacritytwitter.com, reject
+
 
 ## CN list
 # alibaba
