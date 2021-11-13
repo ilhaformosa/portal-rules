@@ -40,6 +40,12 @@ host-suffix, ads-twitter.com, reject
 host-suffix, ewetwitter.com, reject
 host-suffix, plaguealacritytwitter.com, reject
 
+# wsj
+host-suffix, cxense.com, reject
+host-suffix, demdex.net, reject
+host-suffix, moatads.com, reject
+host-suffix, newrelic.com, reject
+host-suffix, tiqcdn.com, reject
 
 ## CN list
 # alibaba
