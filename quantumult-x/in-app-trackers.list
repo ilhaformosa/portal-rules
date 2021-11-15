@@ -19,7 +19,8 @@ host-suffix, connect.facebook.net, reject
 host-suffix, pixel.facebook.com, reject
 
 # google
-host-suffix, google.cn, reject # *important
+host, adservice.google.cn, reject
+host-suffix, google.cn, reject # fail safe of adservice.google.cn
 
 host-suffix, ads.youtube.com, reject
 host-suffix, app-measurement.com, reject
