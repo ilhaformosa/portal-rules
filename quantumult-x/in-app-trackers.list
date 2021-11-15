@@ -19,14 +19,16 @@ host-suffix, connect.facebook.net, reject
 host-suffix, pixel.facebook.com, reject
 
 # google
+host-suffix, google.cn, reject # *important
+
+host-suffix, ads.youtube.com, reject
 host-suffix, app-measurement.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, googleadservices.com, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, googletagmanager.com, reject
 host-suffix, google-analytics.com, reject
-host-suffix, ads.youtube.com, reject
-//host-suffix, firebase-settings.crashlytics.com, reject
+host-suffix, firebase-settings.crashlytics.com, reject
 
 # microsoft
 host-suffix, ads.msn.com, reject
@@ -219,7 +221,6 @@ host-keyword, adsmogo, reject
 host-keyword, adsrvmedia, reject
 host-keyword, adsrvr, reject
 host-keyword, adwords, reject
-host-keyword, adservice, reject
 host-keyword, domob, reject
 host-keyword, duomeng, reject
 host-keyword, dwtrack, reject
