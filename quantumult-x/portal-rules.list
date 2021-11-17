@@ -42,6 +42,7 @@ host-keyword, youtube, portal
 host-keyword, ytimg, portal
 host-suffix, pki.goog, portal
 host-suffix, youtu.be, portal
+//ip-cidr, 8.8.8.8/32, portal
 
 //ip-cidr, 35.190.247.0/24, portal
 //ip-cidr, 64.233.160.0/19, portal

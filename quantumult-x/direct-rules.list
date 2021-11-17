@@ -124,13 +124,13 @@ host-suffix, miwifi.com, direct
 host-keyword, xiaomi, direct
 
 # netease
+host-keyword, netease, direct
 host-suffix, 163.com, direct
 host-suffix, 126.com, direct
 host-suffix, 126.net, direct
 host-suffix, 127.net, direct
 host-suffix, 163yun.com, direct
 host-suffix, lofter.com, direct
-host-suffix, netease.com, direct
 host-suffix, ydstatic.com, direct
 host-suffix, youdao.com, direct
 
@@ -175,6 +175,12 @@ host-keyword, wechat, direct
 //ip-cidr, 129.226.107.244/32, direct
 //ip-cidr, 182.254.116.0/24, direct
 //ip-cidr, 203.205.254.0/23, direct
+
+# yonghui
+host-suffix, geetest.com, direct
+host-suffix, qiyukf.com, direct
+host-suffix, yonghuivip.com, direct
+host-suffix, yunxindns.com, direct
 
 #=======================================
 
