@@ -19,7 +19,7 @@ host-suffix, connect.facebook.net, reject
 host-suffix, pixel.facebook.com, reject
 
 # google
-host, adservice.google.cn, reject
+//host-suffix, adservice.google.cn, reject
 host-suffix, google.cn, reject # fail safe of adservice.google.cn
 
 host-suffix, ads.youtube.com, reject
@@ -48,7 +48,7 @@ host-suffix, cxense.com, reject
 host-suffix, demdex.net, reject
 host-suffix, moatads.com, reject
 host-suffix, newrelic.com, reject
-host-suffix, tiqcdn.com, reject
+//host-suffix, tiqcdn.com, reject
 
 ## CN list
 # alibaba
@@ -59,7 +59,7 @@ host-suffix, ef-dongfeng.tanx.com, reject
 host-suffix, ifs.tanx.com, reject
 host-suffix, ifsk2.tanx.com, reject
 host-suffix, mmstat.com, reject
-host, tunion-api.m.taobao.com, reject
+host-suffix, tunion-api.m.taobao.com, reject
 //host-suffix, gm.mmstat.com, reject
 //host-suffix, wgo.mmstat.com, reject
 //host-suffix, log.mmstat.com, reject
@@ -195,11 +195,9 @@ host-suffix, iyes.youku.com, reject
 host, pl.cp31.ott.cibntv.net, reject
 
 # zhihu
-user-agent, AVOS*, reject
 host-suffix, appcloud2.in.zhihu.com, reject
 host-suffix, mqtt.zhihu.com, reject
 host-suffix, sugar.zhihu.com, reject
-//host, 118.89.204.198, reject
 ip-cidr, 118.89.204.198/32, reject
 ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 
