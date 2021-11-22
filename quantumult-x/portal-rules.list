@@ -1,10 +1,10 @@
-### all directed through #PORTAL#
-### use #force policy# to modify
+### all directed through PORTAL
+### use force policy to modify
 
 # amazon
-host-keyword, cloudfront, portal
 host-keyword, amazon, portal
 host-keyword, aws, portal
+host-keyword, cloudfront, portal
 
 # apple
 host-keyword, apple, portal
@@ -40,8 +40,10 @@ host-keyword, google, portal
 host-keyword, gstatic, portal
 host-keyword, youtube, portal
 host-keyword, ytimg, portal
-host-suffix, pki.goog, portal
+host-suffix, goo.gle, portal
+host-suffix, goog, portal
 host-suffix, youtu.be, portal
+//host-suffix, pki.goog, portal
 //ip-cidr, 8.8.8.8/32, portal
 
 //ip-cidr, 35.190.247.0/24, portal
@@ -57,7 +59,22 @@ host-suffix, youtu.be, portal
 //ip-cidr, 216.58.192.0/19, portal
 //ip-cidr, 216.239.32.0/19, portal
 
+# coinbase & kraken
+host-keyword, coinbase, portal
+host-keyword, kraken, portal
+host-suffix, launchdarkly.com, portal
+host-suffix, ripple.com, portal
+host-suffix, siftscience.com, portal
+host-suffix, sentry.io, portal
+host-suffix, stellar.org, portal
+host-suffix, sectigo.com, portal
+//host-suffix, mixpanel.com, portal # tracker
+
 # microsoft
+host-keyword, github, portal
+host-keyword, linkedin, portal
+host-keyword, microsoft, portal
+host-keyword, officecdn, direct
 //host-suffix, githubusercontent.com, portal
 host-suffix, live.com, portal
 host-suffix, office.com, portal
@@ -69,19 +86,15 @@ host-suffix, outlook.com, portal
 //host-suffix, xbox.com, portal
 //host-suffix, xboxlive.com, portal
 host-keyword, azureedge, portal
-host-keyword, github, portal
-host-keyword, linkedin, portal
-host-keyword, microsoft, portal
-host-keyword, officecdn, direct
 
 # telegram
+host-keyword, telegram, portal
 host-suffix, t.me, portal
 host-suffix, tdesktop.com, portal
-//host-suffix, telegram.me, portal
-//host-suffix, telegram.org, portal
-host-keyword, telegram, portal
 host-suffix, telesco.pe, portal
 host-suffix, telegra.ph, portal
+//host-suffix, telegram.me, portal
+//host-suffix, telegram.org, portal
 
 //ip-cidr, 91.108.4.0/22, portal
 //ip-cidr, 91.108.8.0/22, portal
@@ -99,12 +112,12 @@ host-suffix, telegra.ph, portal
 //ip6-cidr, 2a0a:f280::/32, portal
 
 # twitter
+host-keyword, twitter, portal
+host-keyword, twimg, portal
 host-suffix, pscp.tv, portal
 host-suffix, periscope.tv, portal
 host-suffix, t.co, portal
 host-suffix, vine.co, portal
-host-keyword, twitter, portal
-host-keyword, twimg, portal
 
 //ip-cidr, 69.195.160.0/19, portal
 //ip-cidr, 104.244.42.0/21, portal
@@ -122,14 +135,15 @@ host-suffix, gov, portal
 host-suffix, us, portal
 
 host-suffix, bit.ly, portal
+host-suffix, esu.dog, portal
 host-suffix, ipip.net, portal
 
-//host-suffix, kraken.com, portal
 host-keyword, 23andme, portal
 host-keyword, akamai, portal
 host-keyword, cloudflare, portal
-host-keyword, coinbase, portal
+host-keyword, creditkarma, portal
 host-keyword, dowjones, portal
+host-keyword, experian, portal
 host-keyword, facebook, portal
 host-keyword, reuters, portal
 host-keyword, speedtest, portal
