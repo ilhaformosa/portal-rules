@@ -206,6 +206,8 @@ ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 host-suffix, ad.xiaomi.com, reject
 host-suffix, g.cn.miaozhen.com, reject
 host-suffix, i.gridsumdissector.com, reject
+host-suffix, mixpanel.com, reject
+host-suffix, sentry.io, reject
 host-suffix, trackingio.com, reject
 host-suffix, tracking.miui.com, reject
 host-suffix, piccdn.igetget.com, reject

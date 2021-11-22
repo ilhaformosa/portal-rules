@@ -65,27 +65,27 @@ host-keyword, kraken, portal
 host-suffix, launchdarkly.com, portal
 host-suffix, ripple.com, portal
 host-suffix, siftscience.com, portal
-host-suffix, sentry.io, portal
 host-suffix, stellar.org, portal
 host-suffix, sectigo.com, portal
 //host-suffix, mixpanel.com, portal # tracker
+//host-suffix, sentry.io, portal # tracker
 
 # microsoft
+host-keyword, azure, portal
 host-keyword, github, portal
 host-keyword, linkedin, portal
 host-keyword, microsoft, portal
 host-keyword, officecdn, direct
-//host-suffix, githubusercontent.com, portal
 host-suffix, live.com, portal
 host-suffix, office.com, portal
 host-suffix, office365.com, portal
 host-suffix, outlook.com, portal
+//host-suffix, githubusercontent.com, portal
 //host-suffix, visualstudio.com, portal
 //host-suffix, windows.com, portal
 //host-suffix, windowsupdate.com, portal
 //host-suffix, xbox.com, portal
 //host-suffix, xboxlive.com, portal
-host-keyword, azureedge, portal
 
 # telegram
 host-keyword, telegram, portal
