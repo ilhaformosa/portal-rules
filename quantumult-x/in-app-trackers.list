@@ -87,7 +87,7 @@ host-suffix, ad.toutiao.com, reject
 host-suffix, pangolin.snssdk.com, reject
 
 # caixin news
-host-keyword, jpush, reject
+//host-keyword, jpush, reject
 host-keyword, adsame, reject
 host-suffix, gg.caixin.com, reject
 host-suffix, growingio.com, reject
