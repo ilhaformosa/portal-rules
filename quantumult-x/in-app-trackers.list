@@ -122,7 +122,7 @@ ip-cidr, 101.227.200.28/32, reject
 ip-cidr, 124.192.153.42/32, reject
 
 # mob.com
-host-suffix, mob.com, reject
+//host-suffix, mob.com, reject
 //host-suffix, data.mob.com, reject
 //host-suffix, d.mob.com, reject
 //host-suffix, exc.mob.com, reject
