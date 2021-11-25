@@ -38,13 +38,13 @@ host-keyword, ampproject, portal
 host-keyword, gmail, portal
 host-keyword, google, portal
 host-keyword, gstatic, portal
+host-keyword, recaptcha, portal
 host-keyword, youtube, portal
 host-keyword, ytimg, portal
 host-suffix, goo.gle, portal
 host-suffix, goog, portal
 host-suffix, youtu.be, portal
 //host-suffix, pki.goog, portal
-//ip-cidr, 8.8.8.8/32, portal
 
 //ip-cidr, 35.190.247.0/24, portal
 //ip-cidr, 64.233.160.0/19, portal
@@ -85,7 +85,6 @@ host-suffix, outlook.com, portal
 //host-suffix, windows.com, portal
 //host-suffix, windowsupdate.com, portal
 //host-suffix, xbox.com, portal
-//host-suffix, xboxlive.com, portal
 
 # telegram
 host-keyword, telegram, portal
@@ -143,9 +142,9 @@ host-keyword, akamai, portal
 host-keyword, cloudflare, portal
 host-keyword, creditkarma, portal
 host-keyword, dowjones, portal
-//host-keyword, experian, portal
 host-keyword, facebook, portal
 host-keyword, reuters, portal
 host-keyword, speedtest, portal
 host-keyword, twitch, portal
 host-keyword, wsj, portal
+host-keyword, zoom, portal
