@@ -57,8 +57,6 @@ host-suffix, firebase-settings.crashlytics.com, reject
 
 # twitter
 host-suffix, ads-twitter.com, reject
-//host-suffix, ewetwitter.com, reject
-//host-suffix, plaguealacritytwitter.com, reject
 
 ## CN list
 # alibaba
@@ -76,21 +74,21 @@ host-suffix, tunion-api.m.taobao.com, reject
 //host-suffix, nbsdk-baichuan.taobao.com, reject
 
 # baidu
-host-suffix, duapps.com, reject
+host-suffix, afd.baidu.com, reject
+host-suffix, als.baidu.com, reject
 host-suffix, cpro.baidu.com, reject
+host-suffix, cpro.baidustatic.com, reject
+host-suffix, duapps.com, reject
+host-suffix, duclick.baidu.com, reject
 host-suffix, feed.baidu.com, reject
 host-suffix, hm.baidu.com, reject
 host-suffix, hpd.baidu.com, reject
-host-suffix, pos.baidu.com, reject
-host-suffix, sp1.baidu.com, reject
-host-suffix, afd.baidu.com, reject
-host-suffix, als.baidu.com, reject
-host-suffix, duclick.baidu.com, reject
 host-suffix, mobads.baidu.com, reject
 host-suffix, mobads-logs.baidu.com, reject
 host-suffix, nadvideo2.baidu.com, reject
 host-suffix, nsclick.baidu.com, reject
-host-suffix, cpro.baidustatic.com, reject
+host-suffix, pos.baidu.com, reject
+host-suffix, sp1.baidu.com, reject
 
 # bytedance
 host-suffix, ad.toutiao.com, reject
@@ -204,7 +202,6 @@ host-keyword, rtbasia, reject
 host-keyword, supersonicads, reject
 host-keyword, wlmonitor, reject
 host-keyword, zjtoolbar, reject
-
 
 ## some records / disabled
 # kraken
