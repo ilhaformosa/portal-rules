@@ -36,10 +36,10 @@ host-keyword, alipay, direct
 //host-suffix, aliyun.com, direct
 //host-suffix, aliyuncs.com, direct
 host-keyword, aliyun, direct
-host-suffix, amap.com, direct
 host-keyword, taobao, direct
 host-keyword, tmall, direct
 
+host-suffix, amap.com, direct
 host-suffix, autonavi.com, direct // map service
 host-suffix, dingtalk.com, direct // dingding
 host-suffix, ele.me, direct // eleme
@@ -74,7 +74,6 @@ host-suffix, cctvpic.com, direct
 host-suffix, livechina.com, direct
 
 # china merchants group
-//user-agent, cmb*, direct
 host-suffix, cmbchina.com, direct
 host-suffix, cmbimg.com, direct
 host-suffix, cmschina.com, direct
@@ -112,6 +111,7 @@ host-suffix, meituan.com, direct
 host-suffix, meituan.net, direct
 
 # mi.com
+host-keyword, xiaomi, direct
 host-suffix, mi.com, direct
 host-suffix, mi-img.com, direct
 host-suffix, miot-spec.org, direct
@@ -121,7 +121,6 @@ host-suffix, miwifi.com, direct
 //host-suffix, xiaomi.net, direct
 //host-suffix, xiaomicp.com, direct
 //host-suffix, xiaomiyoupin.com, direct
-host-keyword, xiaomi, direct
 
 # netease
 host-keyword, netease, direct
@@ -151,18 +150,16 @@ host-suffix, sogou.com, direct
 host-suffix, sogoucdn.com, direct
 
 # tencent
-user-agent, WeChat*, direct
+host-keyword, tencent, direct
+host-keyword, wechat, direct
+host-keyword, weixin, direct
 host-suffix, gtimg.com, direct
 host-suffix, qq.com, direct
 host-suffix, qqmail.com, direct
 //host-suffix, servicewechat.com, direct
-host-suffix, tencent.com, direct
-host-suffix, tenpay.com, direct
-//host-suffix, wechat.com, direct
-//host-suffix, weixin.com, direct
 
-host-keyword, wechat, direct
-//host-keyword, weixin, direct // host keyword covered by qq.com
+ip-cidr, 101.32.104.0/25, direct
+ip-cidr, 101.32.118.0/23, direct
 
 //ip-cidr, 101.32.104.4/32, direct
 //ip-cidr, 101.32.104.41/32, direct
