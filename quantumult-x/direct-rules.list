@@ -15,7 +15,7 @@
 host-suffix, ntp.nasa.gov, direct
 host-suffix, ntp.org, direct
 host-suffix, time.apple.com, direct
-host-suffix, time.asia.apple.com, direct
+host-suffix, time.google.com, direct
 
 ## CN // geoip, cn, direct # configured locally //
 host-suffix, cn, direct
