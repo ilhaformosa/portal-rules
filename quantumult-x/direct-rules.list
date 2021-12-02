@@ -19,7 +19,6 @@ host-suffix, time.google.com, direct
 
 ## CN // geoip, cn, direct # configured locally //
 host-suffix, cn, direct
-host-keyword, -cn, direct
 
 ## caixin news
 host-keyword, caixin, direct
