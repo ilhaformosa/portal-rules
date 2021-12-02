@@ -75,7 +75,8 @@ host-keyword, azure, portal
 host-keyword, github, portal
 host-keyword, linkedin, portal
 host-keyword, microsoft, portal
-host-keyword, officecdn, direct
+host-keyword, officecdn, portal
+host-suffix, licdn.com, portal
 host-suffix, live.com, portal
 host-suffix, office.com, portal
 host-suffix, office365.com, portal
