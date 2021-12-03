@@ -3,7 +3,6 @@
 //host-suffix, local, direct
 //host-suffix, localhost, direct
 //ip-cidr, 10.0.0.0/8, direct
-//ip-cidr, 17.0.0.0/8, direct // apple reserved
 //ip-cidr, 100.64.0.0/10, direct
 //ip-cidr, 127.0.0.0/8, direct
 //ip-cidr, 172.16.0.0/12, direct

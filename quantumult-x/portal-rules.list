@@ -17,6 +17,7 @@ host-suffix, edgekey.net, portal
 host-suffix, me.com, portal
 host-suffix, mzstatic.com, portal
 
+//ip-cidr, 17.0.0.0/8, portal
 //ip-cidr, 63.92.224.0/19, portal
 //ip-cidr, 65.199.22.0/23, portal
 //ip-cidr, 139.178.128.0/18, portal
