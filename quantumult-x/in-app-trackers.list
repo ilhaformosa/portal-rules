@@ -56,7 +56,7 @@ host-suffix, google-analytics.com, reject
 host-suffix, firebase-settings.crashlytics.com, reject
 
 # twitter
-host-suffix, ads-twitter.com, reject
+//host-suffix, ads-twitter.com, reject
 
 ## CN list
 # alibaba
@@ -184,22 +184,6 @@ ip-cidr, 118.89.204.198/32, reject
 //ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 
 ## other keywords
-host-keyword, admarvel, reject
-host-keyword, admaster, reject
-host-keyword, adsage, reject
-host-keyword, adsame, reject
-host-keyword, adsmogo, reject
-host-keyword, adsrvmedia, reject
-host-keyword, adwords, reject
-host-keyword, duomeng, reject
-host-keyword, dwtrack, reject
-host-keyword, guanggao, reject
-host-keyword, lianmeng, reject
-host-keyword, omgmta, reject
-host-keyword, partnerad, reject
-host-keyword, pingfore, reject
-host-keyword, rtbasia, reject
-host-keyword, supersonicads, reject
 host-keyword, wlmonitor, reject
 host-keyword, zjtoolbar, reject
 
@@ -217,10 +201,10 @@ host-keyword, zjtoolbar, reject
 
 # mob.com
 //host-suffix, mob.com, reject
-//host-suffix, data.mob.com, reject
-//host-suffix, d.mob.com, reject
-//host-suffix, exc.mob.com, reject
-//host-suffix, share.mob.com, reject
+host-suffix, data.mob.com, reject
+host-suffix, d.mob.com, reject
+host-suffix, exc.mob.com, reject
+host-suffix, share.mob.com, reject
 
 # tencent music
 //host-suffix, ad.tencentmusic.com, reject
@@ -236,6 +220,23 @@ host-keyword, zjtoolbar, reject
 //host-suffix, rich.kuwo.cn, reject
 
 # others
+//host-keyword, admarvel, reject
+//host-keyword, admaster, reject
+//host-keyword, adsage, reject
+//host-keyword, adsame, reject
+//host-keyword, adsmogo, reject
+//host-keyword, adsrvmedia, reject
+//host-keyword, adwords, reject
+//host-keyword, duomeng, reject
+//host-keyword, dwtrack, reject
+//host-keyword, guanggao, reject
+//host-keyword, lianmeng, reject
+//host-keyword, omgmta, reject
+//host-keyword, partnerad, reject
+//host-keyword, pingfore, reject
+//host-keyword, rtbasia, reject
+//host-keyword, supersonicads, reject
+
 //host-suffix, tiqcdn.com, reject
 //host-suffix, dpm.demdex.net, reject
 //host-suffix, js-agent.newrelic.com, reject
