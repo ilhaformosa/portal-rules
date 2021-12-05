@@ -119,6 +119,13 @@ ip-cidr, 101.227.200.11/32, reject
 ip-cidr, 101.227.200.28/32, reject
 ip-cidr, 124.192.153.42/32, reject
 
+# mob.com
+//host-suffix, mob.com, reject
+host-suffix, data.mob.com, reject
+host-suffix, d.mob.com, reject
+host-suffix, exc.mob.com, reject
+host-suffix, share.mob.com, reject
+
 # sina
 host-suffix, alitui.weibo.com, reject
 host-suffix, beacon.sina.com.cn, reject
@@ -146,8 +153,8 @@ host, pgdt.gtimg.com, reject
 host, pgdt.ugdtimg.com, reject
 host, splashqqlive.gtimg.com, reject
 host, wa.gtimg.com, reject
-host, wxsnsdy.wxs.qq.com, reject
-host, wxsnsdythumb.wxs.qq.com, reject
+//host, wxsnsdy.wxs.qq.com, reject
+//host, wxsnsdythumb.wxs.qq.com, reject
 
 # the paper / pengpai
 host-suffix, admonitor.thepaper.cn, reject
@@ -198,13 +205,6 @@ host-keyword, zjtoolbar, reject
 //host-suffix, ads2.msn.com, reject
 //host-suffix, rads.msn.com, reject
 //host-suffix, mobileads.msn.com, reject
-
-# mob.com
-//host-suffix, mob.com, reject
-host-suffix, data.mob.com, reject
-host-suffix, d.mob.com, reject
-host-suffix, exc.mob.com, reject
-host-suffix, share.mob.com, reject
 
 # tencent music
 //host-suffix, ad.tencentmusic.com, reject
