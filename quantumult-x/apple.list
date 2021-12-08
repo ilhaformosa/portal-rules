@@ -1,0 +1,25 @@
+### major Apple services
+### use force policy
+
+# apple
+host-keyword, apple, portal
+host-keyword, icloud, portal
+host-suffix, aaplimg.com, portal
+host-suffix, akadns.net, portal
+host-suffix, akamaiedge.net, portal
+host-suffix, edgekey.net, portal
+host-suffix, me.com, portal
+host-suffix, mzstatic.com, portal
+//host-suffix, appstore.com, portal
+
+//ip-cidr, 17.0.0.0/8, portal
+//ip-cidr, 63.92.224.0/19, portal
+//ip-cidr, 65.199.22.0/23, portal
+//ip-cidr, 139.178.128.0/18, portal
+//ip-cidr, 144.178.0.0/19, portal
+//ip-cidr, 144.178.36.0/22, portal
+//ip-cidr, 144.178.48.0/20, portal
+//ip-cidr, 192.35.50.0/24, portal
+//ip-cidr, 198.183.17.0/24, portal
+//ip-cidr, 205.180.175.0/24, portal
+

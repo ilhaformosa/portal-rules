@@ -6,25 +6,10 @@ host-keyword, amazon, portal
 host-keyword, aws, portal
 host-keyword, cloudfront, portal
 
-# apple
-host-keyword, apple, portal
-host-keyword, icloud, portal
-host-suffix, appstore.com, portal
-host-suffix, aaplimg.com, portal
-host-suffix, akadns.net, portal
-host-suffix, akamaiedge.net, portal
-host-suffix, edgekey.net, portal
-host-suffix, me.com, portal
-host-suffix, mzstatic.com, portal
-
-//ip-cidr, 17.0.0.0/8, portal
-//ip-cidr, 63.92.224.0/19, portal
-//ip-cidr, 65.199.22.0/23, portal
-//ip-cidr, 139.178.128.0/18, portal
-//ip-cidr, 144.178.0.0/19, portal
-//ip-cidr, 192.35.50.0/24, portal
-//ip-cidr, 198.183.17.0/24, portal
-//ip-cidr, 205.180.175.0/24, portal
+# apple / some portal rules
+host-suffix, developer.apple.com, portal
+host-suffix, digicert.com, portal
+host-suffix, testflight.apple.com, portal
 
 # clubhouse / tcp requests filter / udp requests use clubhouse-udp.list
 host-keyword, clubhouse, portal
@@ -140,7 +125,7 @@ host-suffix, esu.dog, portal
 host-suffix, ipip.net, portal
 
 host-keyword, 23andme, portal
-host-keyword, akamai, portal
+//host-keyword, akamai, portal
 host-keyword, cloudflare, portal
 host-keyword, creditkarma, portal
 host-keyword, dowjones, portal
@@ -149,4 +134,4 @@ host-keyword, reuters, portal
 host-keyword, speedtest, portal
 host-keyword, twitch, portal
 host-keyword, wsj, portal
-host-keyword, zoom, portal
+//host-keyword, zoom, portal
