@@ -10,3 +10,4 @@ credit & thanks to:
 - [GeQ1an](https://github.com/GeQ1an) 
 - [Hackl0us](https://github.com/Hackl0us) 
 - [lhie1](https://github.com/lhie1)
+- [paulmillr/encrypted-dns](https://github.com/paulmillr/encrypted-dns)
