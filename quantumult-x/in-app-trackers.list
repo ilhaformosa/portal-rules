@@ -3,10 +3,13 @@
 ## general services
 # general list
 host-keyword, adservice, reject
+host-suffix, adsame.com, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, cxense.com, reject
 host-suffix, demdex.net, reject
+host-suffix, jpush.cn, reject
+host-suffix, krxd.net, reject
 host-suffix, moatads.com, reject
 host-suffix, newrelic.com, reject
 host-suffix, npttech.com, reject
@@ -24,15 +27,16 @@ host-suffix, api.amplitude.com, reject
 host-suffix, api.rlcdn.com, reject
 host-suffix, api.vidora.com, reject
 host-suffix, api2.branch.io, reject
+host-suffix, app.adjust.com, reject
 host-suffix, as-sec.casalemedia.com, reject
-host-suffix, beacon.krxd.net, reject
 host-suffix, cdn.keywee.co, reject
-host-suffix, g.cn.miaozhen.com, reject
+host-suffix, cn.miaozhen.com, reject
 host-suffix, i.gridsumdissector.com, reject
 host-suffix, ib.adnxs.com, reject
 host-suffix, match.adsrvr.org, reject
 host-suffix, piccdn.igetget.com, reject
 host-suffix, radar.cedexis.com, reject
+host-suffix, sc.omtrdc.net, reject
 host-suffix, segement-data.zqtk.net.net, reject
 host-suffix, static.chartbeat.com, reject
 host-suffix, sync.search.spotxchange.com, reject
@@ -80,6 +84,8 @@ host-suffix, cpro.baidu.com, reject
 host-suffix, cpro.baidustatic.com, reject
 host-suffix, duapps.com, reject
 host-suffix, duclick.baidu.com, reject
+host-suffix, dxp.baidu.com, reject
+host-suffix, eclick.baidu.com, reject
 host-suffix, feed.baidu.com, reject
 host-suffix, hm.baidu.com, reject
 host-suffix, hpd.baidu.com, reject
@@ -142,6 +148,7 @@ host-suffix, bugly.qq.com, reject
 host-suffix, e.qq.com, reject
 host-suffix, gdt.qq.com, reject
 host-suffix, l.qq.com, reject
+host-suffix, msdk.qq.com, reject
 host-suffix, pingjs.qq.com, reject
 host-suffix, wspeed.qq.com, reject
 host, adsmind.apdcdn.tc.qq.com, reject
@@ -194,6 +201,7 @@ ip-cidr, 118.89.204.198/32, reject
 host-keyword, wlmonitor, reject
 host-keyword, zjtoolbar, reject
 
+
 ## some records / disabled
 # kraken
 //host-suffix, mixpanel.com, reject
@@ -223,7 +231,6 @@ host-keyword, zjtoolbar, reject
 //host-keyword, admarvel, reject
 //host-keyword, admaster, reject
 //host-keyword, adsage, reject
-//host-keyword, adsame, reject
 //host-keyword, adsmogo, reject
 //host-keyword, adsrvmedia, reject
 //host-keyword, adwords, reject
