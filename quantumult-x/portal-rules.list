@@ -123,6 +123,7 @@ host-suffix, us, portal
 host-suffix, bit.ly, portal
 host-suffix, esu.dog, portal
 host-suffix, ipip.net, portal
+host-suffix, redd.it, portal
 
 host-keyword, 23andme, portal
 //host-keyword, akamai, portal
@@ -130,8 +131,10 @@ host-keyword, cloudflare, portal
 host-keyword, creditkarma, portal
 host-keyword, dowjones, portal
 host-keyword, facebook, portal
+host-keyword, reddit, portal
 host-keyword, reuters, portal
 host-keyword, speedtest, portal
+host-keyword, tradingview, portal
 host-keyword, twitch, portal
 host-keyword, wsj, portal
 //host-keyword, zoom, portal
