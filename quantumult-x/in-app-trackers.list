@@ -18,7 +18,7 @@ host-suffix, petametrics.com, reject
 host-suffix, permutive.com, reject
 host-suffix, scorecardresearch.com, reject
 host-suffix, trackingio.com, reject
-host-suffix, urbanairship.com, reject
+//host-suffix, urbanairship.com, reject //suspend for potential push notification
 host-suffix, vungle.com, reject
 host-suffix, xdrig.com, reject
 
