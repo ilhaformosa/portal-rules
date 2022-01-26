@@ -51,7 +51,7 @@ host-suffix, pixel.facebook.com, reject
 # google
 host-suffix, ads.youtube.com, reject
 host-suffix, app-measurement.com, reject
-host-suffix, doubleclick.net, reject
+//host-suffix, doubleclick.net, reject
 host-suffix, google.cn, reject # no a tracker but reject as a fail safe
 host-suffix, googleadservices.com, reject
 host-suffix, googlesyndication.com, reject
