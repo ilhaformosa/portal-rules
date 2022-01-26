@@ -5,15 +5,15 @@
 host-keyword, adservice, reject
 host-suffix, adsame.com, reject
 host-suffix, amazon-adsystem.com, reject
-host-suffix, appsflyer.com, reject
+//host-suffix, appsflyer.com, reject
 host-suffix, cxense.com, reject
 host-suffix, demdex.net, reject
 host-suffix, jpush.cn, reject
-host-suffix, krxd.net, reject
+//host-suffix, krxd.net, reject
 host-suffix, moatads.com, reject
 host-suffix, newrelic.com, reject
 host-suffix, npttech.com, reject
-host-suffix, optimizely.com, reject
+//host-suffix, optimizely.com, reject
 host-suffix, petametrics.com, reject
 host-suffix, permutive.com, reject
 host-suffix, scorecardresearch.com, reject
@@ -26,7 +26,7 @@ host-suffix, xdrig.com, reject
 host-suffix, api.amplitude.com, reject
 host-suffix, api.rlcdn.com, reject
 host-suffix, api.vidora.com, reject
-host-suffix, api2.branch.io, reject
+//host-suffix, api2.branch.io, reject
 host-suffix, app.adjust.com, reject
 host-suffix, as-sec.casalemedia.com, reject
 host-suffix, cdn.keywee.co, reject
@@ -36,7 +36,7 @@ host-suffix, ib.adnxs.com, reject
 host-suffix, match.adsrvr.org, reject
 host-suffix, piccdn.igetget.com, reject
 host-suffix, radar.cedexis.com, reject
-host-suffix, sc.omtrdc.net, reject
+//host-suffix, sc.omtrdc.net, reject
 host-suffix, segement-data.zqtk.net.net, reject
 host-suffix, static.chartbeat.com, reject
 host-suffix, sync.search.spotxchange.com, reject
