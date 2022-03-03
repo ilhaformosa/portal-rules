@@ -41,7 +41,7 @@ host-suffix, amap.com, direct
 host-suffix, autonavi.com, direct // map service
 host-suffix, dingtalk.com, direct // dingding
 host-suffix, ele.me, direct // eleme
-host-suffix, tanx.com, direct
+//host-suffix, tanx.com, direct // need more info
 host-suffix, ucweb.com, direct
 host-suffix, xiami.com, direct
 host-suffix, xiami.net, direct
