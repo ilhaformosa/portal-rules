@@ -8,7 +8,7 @@ host-suffix, amazon-adsystem.com, reject
 //host-suffix, appsflyer.com, reject
 host-suffix, cxense.com, reject
 host-suffix, demdex.net, reject
-host-suffix, jpush.cn, reject
+//host-suffix, jpush.cn, reject
 //host-suffix, krxd.net, reject
 host-suffix, moatads.com, reject
 host-suffix, newrelic.com, reject
@@ -103,7 +103,7 @@ host-suffix, pangolin-sdk-toutiao.com, reject
 
 # caixin news
 host-suffix, gg.caixin.com, reject
-host-suffix, growingio.com, reject
+//host-suffix, growingio.com, reject
 
 # china telecom
 host, ad.21cn.com, reject
