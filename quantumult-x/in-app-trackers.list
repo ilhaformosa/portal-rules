@@ -103,7 +103,7 @@ host-suffix, pangolin-sdk-toutiao.com, reject
 
 # caixin news
 host-suffix, gg.caixin.com, reject
-//host-suffix, growingio.com, reject
+host-suffix, growingio.com, reject
 
 # china telecom
 host, ad.21cn.com, reject
