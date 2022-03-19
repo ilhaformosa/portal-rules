@@ -2,7 +2,7 @@
 
 ## general services
 # general list
-host-keyword, adservice, reject
+//host-keyword, adservice, reject
 host-suffix, adsame.com, reject
 host-suffix, amazon-adsystem.com, reject
 //host-suffix, appsflyer.com, reject
@@ -53,7 +53,7 @@ host-suffix, ads.youtube.com, reject
 host-suffix, app-measurement.com, reject
 //host-suffix, doubleclick.net, reject
 host-suffix, google.cn, reject # no a tracker but reject as a fail safe
-host-suffix, googleadservices.com, reject
+//host-suffix, googleadservices.com, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, googletagmanager.com, reject
 host-suffix, google-analytics.com, reject
