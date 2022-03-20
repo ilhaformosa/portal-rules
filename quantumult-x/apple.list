@@ -12,6 +12,17 @@ host-suffix, me.com, portal
 host-suffix, mzstatic.com, portal
 //host-suffix, appstore.com, portal
 
+## time calibration service
+host-suffix, ntp.nasa.gov, direct
+host-suffix, ntp.org, direct
+//host-suffix, time.apple.com, direct
+//host-suffix, time.google.com, direct
+
+# apple / some portal rules
+//host-suffix, developer.apple.com, portal
+host-suffix, digicert.com, portal
+//host-suffix, testflight.apple.com, portal
+
 //ip-cidr, 17.0.0.0/8, portal
 //ip-cidr, 63.92.224.0/19, portal
 //ip-cidr, 65.199.22.0/23, portal

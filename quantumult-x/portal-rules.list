@@ -6,11 +6,6 @@ host-keyword, amazon, portal
 host-keyword, aws, portal
 host-keyword, cloudfront, portal
 
-# apple / some portal rules
-host-suffix, developer.apple.com, portal
-host-suffix, digicert.com, portal
-host-suffix, testflight.apple.com, portal
-
 # clubhouse / tcp requests filter / udp requests use clubhouse-udp.list
 host-keyword, clubhouse, portal
 //host-suffix, clubhouseapi.com, portal

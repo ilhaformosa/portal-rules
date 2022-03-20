@@ -10,12 +10,6 @@
 //ip-cidr, 224.0.0.0/4, direct
 //ip6-cidr, fe80::/10, direct
 
-## time calibration service
-host-suffix, ntp.nasa.gov, direct
-host-suffix, ntp.org, direct
-host-suffix, time.apple.com, direct
-host-suffix, time.google.com, direct
-
 ## CN // geoip, cn, direct # configured locally //
 host-suffix, cn, direct
 
