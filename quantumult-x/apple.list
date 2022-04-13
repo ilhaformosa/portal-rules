@@ -7,6 +7,7 @@ host-keyword, icloud, portal
 host-suffix, aaplimg.com, portal
 host-suffix, akadns.net, portal
 host-suffix, akamaiedge.net, portal
+host-suffix, digicert.com, portal
 host-suffix, edgekey.net, portal
 host-suffix, me.com, portal
 host-suffix, mzstatic.com, portal
@@ -20,7 +21,6 @@ host-suffix, ntp.org, direct
 
 # apple / some portal rules
 //host-suffix, developer.apple.com, portal
-host-suffix, digicert.com, portal
 //host-suffix, testflight.apple.com, portal
 
 //ip-cidr, 17.0.0.0/8, portal
