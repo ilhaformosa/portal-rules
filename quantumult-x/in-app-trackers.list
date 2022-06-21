@@ -13,7 +13,7 @@ host-suffix, demdex.net, reject
 host-suffix, moatads.com, reject
 host-suffix, newrelic.com, reject
 host-suffix, npttech.com, reject
-//host-suffix, optimizely.com, reject
+host-suffix, optimizely.com, reject
 host-suffix, petametrics.com, reject
 host-suffix, permutive.com, reject
 host-suffix, scorecardresearch.com, reject
@@ -36,7 +36,7 @@ host-suffix, ib.adnxs.com, reject
 host-suffix, match.adsrvr.org, reject
 host-suffix, piccdn.igetget.com, reject
 host-suffix, radar.cedexis.com, reject
-//host-suffix, sc.omtrdc.net, reject
+host-suffix, sc.omtrdc.net, reject
 host-suffix, segement-data.zqtk.net.net, reject
 host-suffix, static.chartbeat.com, reject
 host-suffix, sync.search.spotxchange.com, reject
@@ -55,7 +55,7 @@ host-suffix, ads.youtube.com, reject
 host-suffix, google.cn, reject # no a tracker but reject as a fail safe
 //host-suffix, googleadservices.com, reject
 host-suffix, googlesyndication.com, reject
-host-suffix, googletagmanager.com, reject
+//host-suffix, googletagmanager.com, reject
 host-suffix, google-analytics.com, reject
 host-suffix, firebase-settings.crashlytics.com, reject
 
