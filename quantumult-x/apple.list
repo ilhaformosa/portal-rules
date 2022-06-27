@@ -2,7 +2,8 @@
 ### use force policy
 
 # apple
-host-keyword, apple, portal
+host-keyword, apple., portal
+host-keyword, .apple, portal
 host-keyword, icloud, portal
 host-suffix, aaplimg.com, portal
 host-suffix, akadns.net, portal
