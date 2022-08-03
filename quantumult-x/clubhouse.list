@@ -2,19 +2,17 @@
 # use "proxy" iff the server supports udp-relay
 # use "direct" policy otherwise
 
-host-suffix, clubhouseapi.com, portal
-host-suffix, clubhouseprod.s3.amazonaws.com, portal
-host-suffix, clubhouse.pubnub.com, portal
-host-suffix, clubhouse.pubnubapi.com, portal
-host-suffix, joinclubhouse.com, portal
+#host-suffix, clubhouseapi.com, portal
+#host-suffix, clubhouseprod.s3.amazonaws.com, portal
+#host-suffix, clubhouse.pubnub.com, portal
+#host-suffix, clubhouse.pubnubapi.com, portal
+#host-suffix, joinclubhouse.com, portal
 host-keyword, clubhouse, portal
-
 
 host-suffix, ap-oversea.agora.io, portal
 host-suffix, ap-oversea2.agora.io, portal
 host-suffix, ap-oversea-tls.agora.io, portal
 host-suffix, report-oversea.agora.io, portal
-
 
 # credit to @DivineEngine, @lynkco01, @ilhaformosa
 ip-cidr, 3.0.163.78/32, portal
@@ -118,4 +116,3 @@ ip-cidr, 202.226.25.0/24, portal
 ip-cidr, 209.177.94.18/32, portal
 ip-cidr, 240.0.0.8/32, portal
 ip-cidr, 240.0.0.9/32, portal
-

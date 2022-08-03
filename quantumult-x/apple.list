@@ -12,26 +12,26 @@ host-suffix, digicert.com, portal
 host-suffix, edgekey.net, portal
 host-suffix, me.com, portal
 host-suffix, mzstatic.com, portal
-//host-suffix, appstore.com, portal
+#host-suffix, appstore.com, portal
 
 ## time calibration service
 host-suffix, ntp.nasa.gov, direct
 host-suffix, ntp.org, direct
-//host-suffix, time.apple.com, direct
-//host-suffix, time.google.com, direct
+#host-suffix, time.apple.com, direct
+#host-suffix, time.google.com, direct
 
 # apple / some portal rules
-//host-suffix, developer.apple.com, portal
-//host-suffix, testflight.apple.com, portal
+#host-suffix, developer.apple.com, portal
+#host-suffix, testflight.apple.com, portal
 
-//ip-cidr, 17.0.0.0/8, portal
-//ip-cidr, 63.92.224.0/19, portal
-//ip-cidr, 65.199.22.0/23, portal
-//ip-cidr, 139.178.128.0/18, portal
-//ip-cidr, 144.178.0.0/19, portal
-//ip-cidr, 144.178.36.0/22, portal
-//ip-cidr, 144.178.48.0/20, portal
-//ip-cidr, 192.35.50.0/24, portal
-//ip-cidr, 198.183.17.0/24, portal
-//ip-cidr, 205.180.175.0/24, portal
+#ip-cidr, 17.0.0.0/8, portal
+#ip-cidr, 63.92.224.0/19, portal
+#ip-cidr, 65.199.22.0/23, portal
+#ip-cidr, 139.178.128.0/18, portal
+#ip-cidr, 144.178.0.0/19, portal
+#ip-cidr, 144.178.36.0/22, portal
+#ip-cidr, 144.178.48.0/20, portal
+#ip-cidr, 192.35.50.0/24, portal
+#ip-cidr, 198.183.17.0/24, portal
+#ip-cidr, 205.180.175.0/24, portal
 
