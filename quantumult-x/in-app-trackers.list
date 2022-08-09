@@ -4,7 +4,7 @@
 # general list
 host-suffix, adsame.com, reject
 host-suffix, amazon-adsystem.com, reject
-host-suffix, appsflyer.com, reject
+#host-suffix, appsflyer.com, reject #affects normal function
 host-suffix, cxense.com, reject
 host-suffix, demdex.net, reject
 #host-suffix, jpush.cn, reject
