@@ -142,7 +142,7 @@ host, saxs.sina.com.cn, reject
 host, saxn.sina.com.cn, reject
 
 # tencent
-ip-cidr, 109.244.0.0/16, reject # wechat tracker
+#ip-cidr, 109.244.0.0/16, reject # wechat tracker configured locally
 host-suffix, bugly.qq.com, reject
 host-suffix, e.qq.com, reject
 host-suffix, gdt.qq.com, reject
