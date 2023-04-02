@@ -1,0 +1,21 @@
+### directed through proxy for microsoft
+### use force policy to modify
+
+# microsoft
+host-keyword, azure, portal
+host-keyword, github, portal
+host-keyword, linkedin, portal
+host-keyword, microsoft, portal
+host-keyword, officecdn, portal
+host-suffix, bing.com, portal
+host-suffix, licdn.com, portal
+host-suffix, live.com, portal
+host-suffix, office.com, portal
+host-suffix, office365.com, portal
+host-suffix, openai.com, portal
+host-suffix, outlook.com, portal
+host-suffix, visualstudio.com, portal
+host-suffix, windows.com, portal
+host-suffix, windowsupdate.com, portal
+host-suffix, xbox.com, portal
+#host-suffix, githubusercontent.com, portal

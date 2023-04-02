@@ -17,6 +17,9 @@ host-suffix, cn, direct
 host-keyword, caixin, direct
 
 # alibaba
+ip-asn, 24429, direct
+ip-asn, 37963, direct
+ip-asn, 45102, direct
 #host-suffix, alibaba.com, direct
 #host-suffix, alibabausercontent.com, direct
 host-keyword, alibaba, direct
@@ -145,12 +148,9 @@ host-suffix, sogoucdn.com, direct
 
 # tencent
 host-keyword, tencent, direct
-host-keyword, wechat, direct
-host-keyword, weixin, direct
 host-suffix, gtimg.com, direct
 host-suffix, qq.com, direct
 host-suffix, qqmail.com, direct
-#host-suffix, servicewechat.com, direct
 
 ip-cidr, 1.193.208.182/32, direct
 ip-cidr, 1.193.209.40/32, direct

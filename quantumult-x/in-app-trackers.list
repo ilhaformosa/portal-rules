@@ -179,7 +179,11 @@ host-suffix, umtrack.com, reject
 #host-suffix, errog.umeng.com, reject
 #host-suffix, plbslog.umeng.com, reject
 
-# mi/xiaomi
+# wechat
+ip-cidr, 119.29.29.0/24, reject
+host-suffix, dns.weixin.qq.com, reject
+
+# xiaomi
 host-suffix, ad.xiaomi.com, reject
 host-suffix, tracking.miui.com, reject
 

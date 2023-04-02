@@ -1,0 +1,30 @@
+### directed through proxy for google
+### use force policy to modify
+
+# google
+host-keyword, ampproject, portal
+host-keyword, gmail, portal
+host-keyword, google, portal
+host-keyword, gstatic, portal
+host-keyword, recaptcha, portal
+host-keyword, youtube, portal
+host-keyword, ytimg, portal
+host-suffix, abc,xyz, portal
+host-suffix, goog, portal
+host-suffix, goo.gle, portal
+host-suffix, youtu.be, portal
+
+#host-suffix, pki.goog, portal
+
+#ip-cidr, 35.190.247.0/24, portal
+#ip-cidr, 64.233.160.0/19, portal
+#ip-cidr, 66.102.0.0/20, portal
+#ip-cidr, 66.249.80.0/20, portal
+#ip-cidr, 72.14.192.0/18, portal
+#ip-cidr, 74.125.0.0/16, portal
+#ip-cidr, 108.177.8.0/21, portal
+#ip-cidr, 172.217.0.0/16, portal
+#ip-cidr, 173.194.0.0/16, portal
+#ip-cidr, 209.85.128.0/17, portal
+#ip-cidr, 216.58.192.0/19, portal
+#ip-cidr, 216.239.32.0/19, portal
