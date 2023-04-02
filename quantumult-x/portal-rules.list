@@ -85,7 +85,7 @@ host-keyword, 23andme, portal
 host-keyword, cloudflare, portal
 host-keyword, creditkarma, portal
 host-keyword, dowjones, portal
-host-keyword, experian, portal
+# host-keyword, experian, portal
 host-keyword, facebook, portal
 host-keyword, reddit, portal
 host-keyword, reuters, portal
