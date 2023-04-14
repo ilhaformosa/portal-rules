@@ -1,5 +1,4 @@
-### major Apple services
-### use force policy
+### major Apple services use force policy
 
 # apple
 host-keyword, apple., portal
@@ -34,4 +33,3 @@ host-suffix, ntp.org, direct
 #ip-cidr, 192.35.50.0/24, portal
 #ip-cidr, 198.183.17.0/24, portal
 #ip-cidr, 205.180.175.0/24, portal
-
