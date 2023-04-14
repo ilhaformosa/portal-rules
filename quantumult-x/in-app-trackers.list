@@ -1,4 +1,4 @@
-### In-App Trackers and mobile ads block
+### In-app trackers and mobile ads block
 
 ## general services
 # general list
@@ -185,13 +185,15 @@ host-suffix, dns.weixin.qq.com, reject
 
 # xiaomi
 host-suffix, ad.xiaomi.com, reject
+host-suffix, ad.intl.xiaomi.com, reject
 host-suffix, tracking.miui.com, reject
+host-suffix, tracking.intl.miui.com, reject
 
 # youku
+host, pl.cp31.ott.cibntv.net, reject
 host-suffix, atm.youku.com, reject
 host-suffix, ad.mobile.youku.com, reject
 host-suffix, iyes.youku.com, reject
-host, pl.cp31.ott.cibntv.net, reject
 
 # zhihu
 host-suffix, appcloud2.in.zhihu.com, reject
@@ -200,10 +202,14 @@ host-suffix, sugar.zhihu.com, reject
 ip-cidr, 118.89.204.198/32, reject
 #ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 
-## other keywords
+## others
+host-suffix, crashlytics.com, reject
+host-suffix, shark-tracer.netease.com, reject
+host-suffix, sobot.com, reject
+host-suffix, zaoshu.so, reject
+host-keyword, cn.bing, reject
 host-keyword, wlmonitor, reject
 host-keyword, zjtoolbar, reject
-
 
 ## some records / disabled
 # kraken
@@ -246,7 +252,6 @@ host-keyword, zjtoolbar, reject
 #host-keyword, pingfore, reject
 #host-keyword, rtbasia, reject
 #host-keyword, supersonicads, reject
-
 #host-suffix, tiqcdn.com, reject
 #host-suffix, dpm.demdex.net, reject
 #host-suffix, js-agent.newrelic.com, reject
