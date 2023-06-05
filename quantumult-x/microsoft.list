@@ -7,12 +7,12 @@ host-keyword, github, portal
 host-keyword, linkedin, portal
 host-keyword, microsoft, portal
 host-keyword, officecdn, portal
+host-keyword, openai, portal
 host-suffix, bing.com, portal
 host-suffix, licdn.com, portal
 host-suffix, live.com, portal
 host-suffix, office.com, portal
 host-suffix, office365.com, portal
-host-suffix, openai.com, portal
 host-suffix, outlook.com, portal
 host-suffix, visualstudio.com, portal
 host-suffix, windows.com, portal
