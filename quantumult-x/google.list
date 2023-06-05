@@ -10,6 +10,7 @@ host-keyword, recaptcha, portal
 host-keyword, youtube, portal
 host-keyword, ytimg, portal
 host-suffix, abc.xyz, portal
+host-suffix, g.co, portal
 host-suffix, goog, portal
 host-suffix, goo.gle, portal
 host-suffix, youtu.be, portal
