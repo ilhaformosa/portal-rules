@@ -14,7 +14,7 @@
 host-suffix, cn, direct
 
 ## caixin news
-host-keyword, caixin, direct
+# host-keyword, caixin, direct
 
 # alibaba
 ip-asn, 24429, direct
@@ -25,8 +25,6 @@ ip-asn, 45102, direct
 host-keyword, alibaba, direct
 host-keyword, alicdn, direct
 host-keyword, alikunlun, direct
-#host-suffix, alipay.com, direct
-#host-suffix, alipayobjects.com, direct
 host-keyword, alipay, direct
 #host-suffix, aliyun.com, direct
 #host-suffix, aliyuncs.com, direct
