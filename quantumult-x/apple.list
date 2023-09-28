@@ -2,8 +2,8 @@
 
 # apple
 host-suffix, apple.com, portal
-host-suffix, apple-cloudkit.com, portal
-host-suffix, apple-mapkit.com, portal
+//host-suffix, apple-cloudkit.com, portal
+//host-suffix, apple-mapkit.com, portal
 host-suffix, aaplimg.com, portal
 host-suffix, akadns.net, portal
 host-suffix, akamaiedge.net, portal
