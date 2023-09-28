@@ -14,7 +14,6 @@ host-suffix, icloud-content.com, portal
 host-suffix, me.com, portal
 host-suffix, mzstatic.com, portal
 #host-suffix, appstore.com, portal
-host-suffix, apple.comscoreresearch.com
 
 ## time calibration service
 host-suffix, ntp.nasa.gov, direct
