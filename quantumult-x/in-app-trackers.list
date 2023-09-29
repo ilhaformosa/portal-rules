@@ -4,10 +4,10 @@
 # general list
 host-suffix, adsame.com, reject
 host-suffix, amazon-adsystem.com, reject
-#host-suffix, appsflyer.com, reject #affects normal function
+//host-suffix, appsflyer.com, reject #affects normal function
 host-suffix, cxense.com, reject
 host-suffix, demdex.net, reject
-#host-suffix, jpush.cn, reject
+//host-suffix, jpush.cn, reject
 host-suffix, krxd.net, reject
 host-suffix, moatads.com, reject
 host-suffix, newrelic.com, reject
@@ -17,7 +17,7 @@ host-suffix, petametrics.com, reject
 host-suffix, permutive.com, reject
 host-suffix, scorecardresearch.com, reject
 host-suffix, trackingio.com, reject
-#host-suffix, urbanairship.com, reject #suspend for potential push notification
+//host-suffix, urbanairship.com, reject #suspend for potential push notification
 host-suffix, vungle.com, reject
 host-suffix, xdrig.com, reject
 
@@ -25,7 +25,7 @@ host-suffix, xdrig.com, reject
 host-suffix, api.amplitude.com, reject
 host-suffix, api.rlcdn.com, reject
 host-suffix, api.vidora.com, reject
-#host-suffix, api2.branch.io, reject
+//host-suffix, api2.branch.io, reject
 host-suffix, app.adjust.com, reject
 host-suffix, as-sec.casalemedia.com, reject
 host-suffix, cdn.keywee.co, reject
@@ -48,18 +48,18 @@ host-suffix, connect.facebook.net, reject
 host-suffix, pixel.facebook.com, reject
 
 # google
-#host-suffix, ads.youtube.com, reject
-#host-suffix, app-measurement.com, reject
-#host-suffix, doubleclick.net, reject
+//host-suffix, ads.youtube.com, reject
+//host-suffix, app-measurement.com, reject
+//host-suffix, doubleclick.net, reject
 host-suffix, google.cn, reject # no a tracker but reject as a fail safe
-#host-suffix, googleadservices.com, reject
-#host-suffix, googlesyndication.com, reject
-#host-suffix, googletagmanager.com, reject
-#host-suffix, google-analytics.com, reject
-#host-suffix, firebase-settings.crashlytics.com, reject
+//host-suffix, googleadservices.com, reject
+//host-suffix, googlesyndication.com, reject
+//host-suffix, googletagmanager.com, reject
+//host-suffix, google-analytics.com, reject
+//host-suffix, firebase-settings.crashlytics.com, reject
 
 # twitter
-#host-suffix, ads-twitter.com, reject
+//host-suffix, ads-twitter.com, reject
 
 ## CN list
 # alibaba
@@ -71,10 +71,10 @@ host-suffix, ifs.tanx.com, reject
 host-suffix, ifsk2.tanx.com, reject
 host-suffix, mmstat.com, reject
 host-suffix, tunion-api.m.taobao.com, reject
-#host-suffix, gm.mmstat.com, reject
-#host-suffix, wgo.mmstat.com, reject
-#host-suffix, log.mmstat.com, reject
-#host-suffix, nbsdk-baichuan.taobao.com, reject
+//host-suffix, gm.mmstat.com, reject
+//host-suffix, wgo.mmstat.com, reject
+//host-suffix, log.mmstat.com, reject
+//host-suffix, nbsdk-baichuan.taobao.com, reject
 
 # baidu
 host-suffix, afd.baidu.com, reject
@@ -125,7 +125,7 @@ ip-cidr, 101.227.200.28/32, reject
 ip-cidr, 124.192.153.42/32, reject
 
 # mob.com
-#host-suffix, mob.com, reject
+//host-suffix, mob.com, reject
 host-suffix, data.mob.com, reject
 host-suffix, d.mob.com, reject
 host-suffix, exc.mob.com, reject
@@ -142,13 +142,13 @@ host, saxs.sina.com.cn, reject
 host, saxn.sina.com.cn, reject
 
 # tencent
-#ip-cidr, 109.244.0.0/16, reject # wechat tracker configured locally
 host-suffix, bugly.qq.com, reject
 host-suffix, e.qq.com, reject
 host-suffix, gdt.qq.com, reject
 host-suffix, l.qq.com, reject
 host-suffix, msdk.qq.com, reject
 host-suffix, pingjs.qq.com, reject
+host-suffix, trace.qq.com, reject
 host-suffix, wspeed.qq.com, reject
 host, adsmind.apdcdn.tc.qq.com, reject
 host, adsmind.gdtimg.com, reject
@@ -159,8 +159,8 @@ host, pgdt.gtimg.com, reject
 host, pgdt.ugdtimg.com, reject
 host, splashqqlive.gtimg.com, reject
 host, wa.gtimg.com, reject
-#host, wxsnsdy.wxs.qq.com, reject
-#host, wxsnsdythumb.wxs.qq.com, reject
+//host, wxsnsdy.wxs.qq.com, reject
+//host, wxsnsdythumb.wxs.qq.com, reject
 
 # the paper / pengpai
 host-suffix, admonitor.thepaper.cn, reject
@@ -172,16 +172,18 @@ host-suffix, umeng.com, reject
 host-suffix, umengcloud.com, reject
 host-suffix, umsns.com, reject
 host-suffix, umtrack.com, reject
-#host-suffix, at.umtrack.com, reject
-#host-suffix, ulogs.umeng.com, reject
-#host-suffix, ulogs.umengcloud.com, reject
-#host-suffix, log.umsns.com, reject
-#host-suffix, errog.umeng.com, reject
-#host-suffix, plbslog.umeng.com, reject
+//host-suffix, at.umtrack.com, reject
+//host-suffix, ulogs.umeng.com, reject
+//host-suffix, ulogs.umengcloud.com, reject
+//host-suffix, log.umsns.com, reject
+//host-suffix, errog.umeng.com, reject
+//host-suffix, plbslog.umeng.com, reject
 
 # wechat
 ip-cidr, 119.29.29.0/24, reject
 host-suffix, dns.weixin.qq.com, reject
+# wechat tracker/reporter
+ip-cidr, 109.244.0.0/16, reject
 
 # xiaomi
 host-suffix, ad.xiaomi.com, reject
@@ -200,7 +202,7 @@ host-suffix, appcloud2.in.zhihu.com, reject
 host-suffix, mqtt.zhihu.com, reject
 host-suffix, sugar.zhihu.com, reject
 ip-cidr, 118.89.204.198/32, reject
-#ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
+//ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 
 ## others
 host, adserver.juicyads.com, reject
@@ -215,53 +217,53 @@ host-keyword, zjtoolbar, reject
 
 ## some records / disabled
 # kraken
-#host-suffix, mixpanel.com, reject
-#host-suffix, sentry.io, reject
+//host-suffix, mixpanel.com, reject
+//host-suffix, sentry.io, reject
 
 # microsoft
-#host-suffix, ads.msn.com, reject
-#host-suffix, ads1.msn.com, reject
-#host-suffix, ads2.msn.com, reject
-#host-suffix, rads.msn.com, reject
-#host-suffix, mobileads.msn.com, reject
+//host-suffix, ads.msn.com, reject
+//host-suffix, ads1.msn.com, reject
+//host-suffix, ads2.msn.com, reject
+//host-suffix, rads.msn.com, reject
+//host-suffix, mobileads.msn.com, reject
 
 # tencent music
-#host-suffix, ad.tencentmusic.com, reject
-#host-suffix, adstats.tencentmusic.com, reject
-#host-suffix, adserviceretry.kugou.com, reject
-#host-suffix, ads.service.kugou.com, reject
-#host-suffix, adsfile.bssdlbig.kugou.com, reject
-#host-suffix, g.koowo.com, reject
-#host-suffix, kgmobilestat.kugou.com, reject
-#host-suffix, kgmobilestatbak.kugou.com, reject
-#host-suffix, mobilelog.kugou.com, reject
-#host-suffix, mobilead.kuwo.cn, reject
-#host-suffix, rich.kuwo.cn, reject
+//host-suffix, ad.tencentmusic.com, reject
+//host-suffix, adstats.tencentmusic.com, reject
+//host-suffix, adserviceretry.kugou.com, reject
+//host-suffix, ads.service.kugou.com, reject
+//host-suffix, adsfile.bssdlbig.kugou.com, reject
+//host-suffix, g.koowo.com, reject
+//host-suffix, kgmobilestat.kugou.com, reject
+//host-suffix, kgmobilestatbak.kugou.com, reject
+//host-suffix, mobilelog.kugou.com, reject
+//host-suffix, mobilead.kuwo.cn, reject
+//host-suffix, rich.kuwo.cn, reject
 
 # others
-#host-keyword, admarvel, reject
-#host-keyword, admaster, reject
-#host-keyword, adsage, reject
-#host-keyword, adsmogo, reject
-#host-keyword, adsrvmedia, reject
-#host-keyword, adwords, reject
-#host-keyword, duomeng, reject
-#host-keyword, dwtrack, reject
-#host-keyword, guanggao, reject
-#host-keyword, lianmeng, reject
-#host-keyword, omgmta, reject
-#host-keyword, partnerad, reject
-#host-keyword, pingfore, reject
-#host-keyword, rtbasia, reject
-#host-keyword, supersonicads, reject
-#host-suffix, tiqcdn.com, reject
-#host-suffix, dpm.demdex.net, reject
-#host-suffix, js-agent.newrelic.com, reject
-#host-suffix, query1.petametrics.com, reject
-#host-suffix, query.petametrics.com, reject
-#host-suffix, api.cxense.com, reject
-#host-suffix, p1cluster.cxense.com, reject
-#host-suffix, mb.moatads.com, reject
-#host-suffix, z.moatads.com, reject
-#host-suffix, api.permutive.com, reject
-#host-suffix, cdn.permutive.com, reject
+//host-keyword, admarvel, reject
+//host-keyword, admaster, reject
+//host-keyword, adsage, reject
+//host-keyword, adsmogo, reject
+//host-keyword, adsrvmedia, reject
+//host-keyword, adwords, reject
+//host-keyword, duomeng, reject
+//host-keyword, dwtrack, reject
+//host-keyword, guanggao, reject
+//host-keyword, lianmeng, reject
+//host-keyword, omgmta, reject
+//host-keyword, partnerad, reject
+//host-keyword, pingfore, reject
+//host-keyword, rtbasia, reject
+//host-keyword, supersonicads, reject
+//host-suffix, tiqcdn.com, reject
+//host-suffix, dpm.demdex.net, reject
+//host-suffix, js-agent.newrelic.com, reject
+//host-suffix, query1.petametrics.com, reject
+//host-suffix, query.petametrics.com, reject
+//host-suffix, api.cxense.com, reject
+//host-suffix, p1cluster.cxense.com, reject
+//host-suffix, mb.moatads.com, reject
+//host-suffix, z.moatads.com, reject
+//host-suffix, api.permutive.com, reject
+//host-suffix, cdn.permutive.com, reject
