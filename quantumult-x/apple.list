@@ -16,6 +16,7 @@ host-suffix, icloud-content.com, portal
 host-suffix, itunes.com, portal
 host-suffix, me.com, portal
 host-suffix, mzstatic.com, portal
+host-suffix, safebrowsing.apple, portal
 #host-suffix, appstore.com, portal
 
 ## time calibration service
