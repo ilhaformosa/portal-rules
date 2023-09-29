@@ -76,8 +76,11 @@ host-suffix, cursor.so, portal
 host-suffix, esu.dog, portal
 host-suffix, freewechat.com, portal
 host-suffix, ipip.net, portal
+host-suffix, nike.com, portal
+host-suffix, okx.com, portal
 host-suffix, redd.it, portal
 host-suffix, signal.org, portal
+host-suffix, ubnt.com, portal
 
 host-keyword, 23andme, portal
 host-keyword, akamai, portal
