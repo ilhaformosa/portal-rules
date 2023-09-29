@@ -10,6 +10,6 @@
 //ip-cidr, 224.0.0.0/4, direct
 //ip6-cidr, fe80::/10, direct
 
-## cn & geoip, direct
+## cn & geoip, direct (geoip should be the last rule before final)
 host-suffix, cn, direct
 //geoip, cn, direct
