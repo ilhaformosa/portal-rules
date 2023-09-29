@@ -5,13 +5,13 @@ host-keyword, amazon, portal
 host-keyword, aws, portal
 host-keyword, cloudfront, portal
 
-# clubhouse / tcp requests filter / udp requests use clubhouse-udp.list
-#host-keyword, clubhouse, portal
-#host-suffix, clubhouseapi.com, portal
-#host-suffix, clubhouseprod.s3.amazonaws.com, portal
-#host-suffix, clubhouse.pubnub.com, portal
-#host-suffix, clubhouse.pubnubapi.com, portal
-#host-suffix, joinclubhouse.com, portal
+# clubhouse / tcp & udp requests filter
+//host-keyword, clubhouse, portal
+//host-suffix, clubhouseapi.com, portal
+//host-suffix, clubhouseprod.s3.amazonaws.com, portal
+//host-suffix, clubhouse.pubnub.com, portal
+//host-suffix, clubhouse.pubnubapi.com, portal
+//host-suffix, joinclubhouse.com, portal
 
 # coinbase & kraken
 host-keyword, coinbase, portal
@@ -21,8 +21,8 @@ host-suffix, ripple.com, portal
 host-suffix, siftscience.com, portal
 host-suffix, stellar.org, portal
 host-suffix, sectigo.com, portal
-#host-suffix, mixpanel.com, portal # tracker
-#host-suffix, sentry.io, portal # tracker
+//host-suffix, mixpanel.com, portal # tracker
+//host-suffix, sentry.io, portal # tracker
 
 # telegram
 host-keyword, telegram, portal
@@ -30,23 +30,23 @@ host-suffix, t.me, portal
 host-suffix, tdesktop.com, portal
 host-suffix, telesco.pe, portal
 host-suffix, telegra.ph, portal
-#host-suffix, telegram.me, portal
-#host-suffix, telegram.org, portal
+//host-suffix, telegram.me, portal
+//host-suffix, telegram.org, portal
 
-#ip-cidr, 91.108.4.0/22, portal
-#ip-cidr, 91.108.8.0/22, portal
-#ip-cidr, 91.108.12.0/22, portal
-#ip-cidr, 91.108.16.0/22, portal
-#ip-cidr, 91.108.20.0/22, portal
-#ip-cidr, 91.108.56.0/22, portal
-#ip-cidr, 91.105.192.0/23, portal
-#ip-cidr, 149.154.160.0/20, portal
-#ip-cidr, 185.76.151.0/24, portal
-#ip6-cidr, 2001:b28:f23d::/48, portal
-#ip6-cidr, 2001:b28:f23f::/48, portal
-#ip6-cidr, 2001:67c:4e8::/48, portal
-#ip6-cidr, 2001:b28:f23c::/48, portal
-#ip6-cidr, 2a0a:f280::/32, portal
+//ip-cidr, 91.108.4.0/22, portal
+//ip-cidr, 91.108.8.0/22, portal
+//ip-cidr, 91.108.12.0/22, portal
+//ip-cidr, 91.108.16.0/22, portal
+//ip-cidr, 91.108.20.0/22, portal
+//ip-cidr, 91.108.56.0/22, portal
+//ip-cidr, 91.105.192.0/23, portal
+//ip-cidr, 149.154.160.0/20, portal
+//ip-cidr, 185.76.151.0/24, portal
+//ip6-cidr, 2001:b28:f23d::/48, portal
+//ip6-cidr, 2001:b28:f23f::/48, portal
+//ip6-cidr, 2001:67c:4e8::/48, portal
+//ip6-cidr, 2001:b28:f23c::/48, portal
+//ip6-cidr, 2a0a:f280::/32, portal
 
 # twitter
 host-keyword, twitter, portal
@@ -56,14 +56,14 @@ host-suffix, periscope.tv, portal
 host-suffix, t.co, portal
 host-suffix, vine.co, portal
 
-#ip-cidr, 69.195.160.0/19, portal
-#ip-cidr, 104.244.42.0/21, portal
-#ip-cidr, 192.133.76.0/22, portal
-#ip-cidr, 199.16.156.0/22, portal
-#ip-cidr, 199.59.148.0/22, portal
-#ip-cidr, 199.96.56.0/21, portal
-#ip-cidr, 202.160.128.0/22, portal
-#ip-cidr, 209.237.192.0/19, portal
+//ip-cidr, 69.195.160.0/19, portal
+//ip-cidr, 104.244.42.0/21, portal
+//ip-cidr, 192.133.76.0/22, portal
+//ip-cidr, 199.16.156.0/22, portal
+//ip-cidr, 199.59.148.0/22, portal
+//ip-cidr, 199.96.56.0/21, portal
+//ip-cidr, 202.160.128.0/22, portal
+//ip-cidr, 209.237.192.0/19, portal
 
 ## other rules
 host-suffix, dev, portal
@@ -95,4 +95,4 @@ host-keyword, speedtest, portal
 host-keyword, tradingview, portal
 host-keyword, twitch, portal
 host-keyword, wsj, portal
-#host-keyword, zoom, portal
+//host-keyword, zoom, portal

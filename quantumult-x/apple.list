@@ -22,8 +22,8 @@ host-suffix, safebrowsing.apple, portal
 ## time calibration service
 host-suffix, ntp.nasa.gov, direct
 host-suffix, ntp.org, direct
-#host-suffix, time.apple.com, direct
-#host-suffix, time.google.com, direct
+//host-suffix, time.apple.com, direct
+//host-suffix, time.google.com, direct
 
 ## apple / some portal rules
 //host-suffix, developer.apple.com, portal

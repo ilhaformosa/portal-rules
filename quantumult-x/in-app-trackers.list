@@ -192,10 +192,10 @@ host-suffix, tracking.miui.com, reject
 host-suffix, tracking.intl.miui.com, reject
 
 # youku
-host, pl.cp31.ott.cibntv.net, reject
 host-suffix, atm.youku.com, reject
 host-suffix, ad.mobile.youku.com, reject
 host-suffix, iyes.youku.com, reject
+host-suffix, ott.cibntv.net, reject
 
 # zhihu
 host-suffix, appcloud2.in.zhihu.com, reject
