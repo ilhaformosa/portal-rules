@@ -1,6 +1,6 @@
 ### major Apple services use force policy
 
-# apple
+## apple
 host-suffix, apple.co, portal
 host-suffix, apple.com, portal
 host-suffix, apple-cloudkit.com, portal
@@ -25,9 +25,9 @@ host-suffix, ntp.org, direct
 #host-suffix, time.apple.com, direct
 #host-suffix, time.google.com, direct
 
-# apple / some portal rules
-#host-suffix, developer.apple.com, portal
-#host-suffix, testflight.apple.com, portal
+## apple / some portal rules
+//host-suffix, developer.apple.com, portal
+//host-suffix, testflight.apple.com, portal
 host-suffix, apple.news, portal
 
 ip-cidr, 17.0.0.0/8, portal
