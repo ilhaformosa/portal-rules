@@ -27,6 +27,7 @@ host-suffix, ntp.org, direct
 # apple / some portal rules
 #host-suffix, developer.apple.com, portal
 #host-suffix, testflight.apple.com, portal
+host-suffix, apple.news, portal
 
 ip-cidr, 17.0.0.0/8, portal
 ip-cidr, 63.92.224.0/19, portal
