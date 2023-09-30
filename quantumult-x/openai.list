@@ -5,6 +5,7 @@
 host-keyword, openai, portal
 host-suffix, ai.com, portal
 host-suffix, api.mixpanel.com, portal
+host-suffix, api.revenuecat.com, portal
 host-suffix, api.statsig.com, portal
 host-suffix, cdn.auth0.com, portal
 host-suffix, ingest.sentry.io, portal
