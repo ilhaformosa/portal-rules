@@ -37,7 +37,7 @@ host-suffix, amap.com, direct
 host-suffix, autonavi.com, direct # map service
 host-suffix, dingtalk.com, direct # dingding
 host-suffix, ele.me, direct # eleme
-#host-suffix, tanx.com, direct # need more info
+//host-suffix, tanx.com, direct # need more info
 host-suffix, ucweb.com, direct
 host-suffix, xiami.com, direct
 host-suffix, xiami.net, direct
@@ -80,7 +80,7 @@ host-suffix, chengxinyouxuan.com, direct
 host-suffix, didialift.com, direct
 host-suffix, didiglobal.com, direct
 host-suffix, didistatic.com, direct
-#host-suffix, diditaxi.com.cn, direct
+//host-suffix, diditaxi.com.cn, direct
 host-suffix, udache.com, direct
 host-suffix, xiaojukeji.com, direct
 
@@ -102,7 +102,7 @@ host-suffix, 300hu.com, direct
 
 # meituan
 host-suffix, dianping.com, direct
-#host-suffix, dpfile.com, direct
+//host-suffix, dpfile.com, direct
 host-suffix, meituan.com, direct
 host-suffix, meituan.net, direct
 
@@ -113,40 +113,43 @@ host-suffix, mi-img.com, direct
 host-suffix, miot-spec.org, direct
 host-suffix, miui.com, direct
 host-suffix, miwifi.com, direct
-#host-suffix, xiaomi.com, direct
-#host-suffix, xiaomi.net, direct
-#host-suffix, xiaomicp.com, direct
-#host-suffix, xiaomiyoupin.com, direct
+//host-suffix, xiaomi.com, direct
+//host-suffix, xiaomi.net, direct
+//host-suffix, xiaomicp.com, direct
+//host-suffix, xiaomiyoupin.com, direct
 
 # netease
 host-keyword, netease, direct
-host-suffix, 163.com, direct
 host-suffix, 126.com, direct
 host-suffix, 126.net, direct
-host-suffix, 127.net, direct
+host-suffix, 163.com, direct
 host-suffix, 163yun.com, direct
 host-suffix, lofter.com, direct
 host-suffix, ydstatic.com, direct
 host-suffix, youdao.com, direct
 
 # sina
-host-suffix, sina.com, direct
-host-suffix, sinaapp.com, direct
-host-suffix, weibo.com, direct
-host-suffix, weibocdn.com, direct
+host-keyword, sina, direct
+host-keyword, weibo, direct
+//host-suffix, sina.com, direct
+//host-suffix, sinaapp.com, direct
+//host-suffix, weibo.com, direct
+//host-suffix, weibocdn.com, direct
 
 # sohu
-host-suffix, sohu.com, direct
-host-suffix, sohucs.com, direct
-host-suffix, sohu-inc.com, direct
+host-keyword, sohu, direct
+//host-suffix, sohu.com, direct
+//host-suffix, sohucs.com, direct
+//host-suffix, sohu-inc.com, direct
 
 # sogo
-host-suffix, sogo.com, direct
-host-suffix, sogou.com, direct
-host-suffix, sogoucdn.com, direct
+host-keyword, sohu, direct
+//host-suffix, sogo.com, direct
+//host-suffix, sogou.com, direct
+//host-suffix, sogoucdn.com, direct
 
 # tencent
-host-keyword, tencent, direct
+//host-keyword, tencent, direct
 host-suffix, gtimg.com, direct
 host-suffix, qq.com, direct
 host-suffix, qqmail.com, direct
@@ -185,18 +188,6 @@ ip-cidr, 203.205.254.0/23, direct
 
 //ip-cidr, 101.32.104.0/25, direct
 //ip-cidr, 101.32.118.0/23, direct
-
-//ip-cidr, 101.32.104.4/32, direct
-//ip-cidr, 101.32.104.41/32, direct
-//ip-cidr, 101.32.104.56/32, direct
-//ip-cidr, 101.32.118.25/32, direct
-//ip-cidr, 101.32.133.16/32, direct
-//ip-cidr, 101.32.133.53/32, direct
-//ip-cidr, 101.32.133.209/32, direct
-//ip-cidr, 129.226.3.47/32, direct
-//ip-cidr, 129.226.107.244/32, direct
-//ip-cidr, 182.254.116.0/24, direct
-//ip-cidr, 203.205.254.0/23, direct
 
 # yonghui
 host-suffix, geetest.com, direct

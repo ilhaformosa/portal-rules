@@ -142,16 +142,16 @@ host, saxs.sina.com.cn, reject
 host, saxn.sina.com.cn, reject
 
 # tencent
-host-suffix, bugly.qq.com, reject
-host-suffix, trace.qq.com, reject
 host, adsmind.apdcdn.tc.qq.com, reject
 host, adsmind.gdtimg.com, reject
 host, adsmind.tc.qq.com, reject
+//host-suffix, bugly.qq.com, reject
 //host-suffix, e.qq.com, reject
 //host-suffix, gdt.qq.com, reject
 //host-suffix, l.qq.com, reject
 //host-suffix, msdk.qq.com, reject
 //host-suffix, pingjs.qq.com, reject
+//host-suffix, trace.qq.com, reject
 //host-suffix, wspeed.qq.com, reject
 //host, beacon.sparta.mig.tencent-cloud.net, reject
 //host, pgdt.gtimg.cn, reject
