@@ -211,7 +211,8 @@ host-suffix, crashlytics.com, reject
 host-suffix, shark-tracer.netease.com, reject
 host-suffix, sobot.com, reject
 host-suffix, zaoshu.so, reject
-host-keyword, cn.bing, reject
+host-suffix, bing.cn, reject
+host-suffix, cn.bing.com, reject
 host-keyword, wlmonitor, reject
 host-keyword, zjtoolbar, reject
 
