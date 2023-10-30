@@ -11,7 +11,7 @@
 //ip6-cidr, fe80::/10, direct
 
 ## CN (geoip should be the last rule before final)
-host-suffix, cn, direct
+//host-suffix, cn, direct #configured locally
 //host-suffix, linksyssmartwifi.com, direct
 
 ## caixin news
