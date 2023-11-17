@@ -77,17 +77,65 @@ host-suffix, tunion-api.m.taobao.com, reject
 //host-suffix, nbsdk-baichuan.taobao.com, reject
 
 # baidu
+host-suffix, a.baidu.com, reject
+host-suffix, ad.player.baidu.com, reject
+host-suffix, adm.baidu.com, reject
+host-suffix, adscdn.baidu.com, reject
 host-suffix, afd.baidu.com, reject
 host-suffix, als.baidu.com, reject
+host-suffix, anquan.baidu.com, reject
+host-suffix, antivirus.baidu.com, reject
+host-suffix, app.ibaiducdn.com, reject
+host-suffix, appc.baidu.com, reject
+host-suffix, baichuan.baidu.com, reject
+host-suffix, baidutv.baidu.com, reject
+host-suffix, baifen.music.baidu.com, reject
+host-suffix, banlv.baidu.com, reject
+host-suffix, bar.baidu.com, reject
+host-suffix, bdplus.baidu.com, reject
+host-suffix, btlaunch.baidu.com, reject
+host-suffix, c.baidu.com, reject
+host-suffix, cb.baidu.com, reject
+host-suffix, cbjs.baidu.com, reject
+host-suffix, cjhq.baidu.com, reject
+host-suffix, cleaner.baidu.com, reject
+host-suffix, cm.baidu.com, reject
+host-suffix, cpro.baidu.cn, reject
 host-suffix, cpro.baidu.com, reject
+host-suffix, cpro2.baidu.com, reject
+host-suffix, cpu-admin.baidu.com, reject
+host-suffix, crs.baidu.com, reject
 host-suffix, cpro.baidustatic.com, reject
+host-suffix, datax.baidu.com, reject
+host-suffix, dl1sw.baidu.com, reject
+host-suffix, dl2.bav.baidu.com, reject
+host-suffix, dlsw.baidu.com, reject
+host-suffix, dlsw.br.baidu.com, reject
+host-suffix, dl-vip.bav.baidu.com, reject
+host-suffix, drmcmm.baidu.com, reject
+host-suffix, duiwai.baidu.com, reject
+host-suffix, dxp.baidu.com, reject
+host-suffix, dzl.baidu.com, reject
 host-suffix, duapps.com, reject
 host-suffix, duclick.baidu.com, reject
 host-suffix, dxp.baidu.com, reject
+host-suffix, e.baidu.com, reject
 host-suffix, eclick.baidu.com, reject
+host-suffix, eiv.baidu.com, reject
+host-suffix, em.baidu.com, reject
+host-suffix, entry.baidu.com, reject
+host-suffix, ers.baidu.com, reject
+host-suffix, fclick.baidu.com, reject
 host-suffix, feed.baidu.com, reject
+host-suffix, fexclick.baidu.com, reject
+host-suffix, g.baidu.com, reject
+host-suffix, gimg.baidu.com, reject
+host-suffix, guanjia.baidu.com, reject
+host-suffix, hc.baidu.com, reject
+host-suffix, hdj.baidu.com, reject
 host-suffix, hm.baidu.com, reject
 host-suffix, hpd.baidu.com, reject
+# host-suffix, idm-su.baidu.com, reject
 host-suffix, mobads.baidu.com, reject
 host-suffix, mobads-logs.baidu.com, reject
 host-suffix, nadvideo2.baidu.com, reject
@@ -142,9 +190,39 @@ host, saxs.sina.com.cn, reject
 host, saxn.sina.com.cn, reject
 
 # tencent
-host, adsmind.apdcdn.tc.qq.com, reject
-host, adsmind.gdtimg.com, reject
-host, adsmind.tc.qq.com, reject
+# host-suffix, , reject
+
+host-suffix, ad.qq.com, reject
+host-suffix, adping.qq.com, reject
+host-suffix, adpm.app.qq.com, reject
+host-suffix, adrdir.qq.com, reject
+host-suffix, adsclick.qq.com, reject
+
+host-suffix, adsense.html5.qq.com, reject
+host-suffix, adsfile.qq.com, reject
+host-suffix, adsgroup.qq.com, reject
+host-suffix, adshmct.qq.com, reject
+host-suffix, adshmmsg.qq.com, reject
+host-suffix, adslvfile.qq.com, reject
+host-suffix, adslvseed.qq.com, reject
+host-suffix, adsolution.imtt.qq.com, reject
+host-suffix, adsqqclick.qq.com, reject
+host-suffix, adstextview.qq.com, reject
+host-suffix, adsview.qq.com, reject
+host-suffix, adsview2.qq.com, reject
+
+host-suffix, adsmind.apdcdn.tc.qq.com, reject
+host-suffix, adsmind.gdtimg.com, reject
+host-suffix, adsmind.tc.qq.com, reject
+
+host-suffix, adv.app.qq.com, reject
+host-suffix, adver.qq.com, reject
+host-suffix, analy.qq.com, reject
+
+host-suffix, btrace.qq.com, reject
+host-suffix, h5-api.feiersmart.com, reject
+host-suffix, info4.video.qq.com, reject
+host-suffix, ios.video.mpush.qq.com, reject
 //host-suffix, bugly.qq.com, reject
 //host-suffix, e.qq.com, reject
 //host-suffix, gdt.qq.com, reject
@@ -240,6 +318,10 @@ host-keyword, zjtoolbar, reject
 //host-suffix, mobilelog.kugou.com, reject
 //host-suffix, mobilead.kuwo.cn, reject
 //host-suffix, rich.kuwo.cn, reject
+
+# OpenAI
+host, o33249.ingest.sentry.io, reject
+host, openaicom.imgix.net, reject
 
 # others
 //host-keyword, admarvel, reject

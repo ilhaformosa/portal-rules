@@ -1,5 +1,4 @@
-### directed through proxy for OpenAI
-## use force policy to modify
+### directed through proxy for OpenAI ## use force policy to modify
 
 # OpenAI
 host-keyword, openai, portal
@@ -10,3 +9,8 @@ host-suffix, api.statsig.com, portal
 host-suffix, cdn.auth0.com, portal
 host-suffix, ingest.sentry.io, portal
 host-suffix, o.lencr.org, portal
+host-suffix, oaistatic.com, portal
+host-suffix, oaiusercontent.com, portal
+host, chat.openai.com.cdn.cloudflare.net, portal
+host, openaiapi-site.azureedge.net, portal
+host, production-openaicom-storage.azureedge.net, portal
