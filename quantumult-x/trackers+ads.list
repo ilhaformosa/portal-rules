@@ -4,7 +4,8 @@
 # general list
 host-suffix, adsame.com, reject
 host-suffix, amazon-adsystem.com, reject
-//host-suffix, appsflyer.com, reject #affects normal function
+#affects normal function
+//host-suffix, appsflyer.com, reject
 host-suffix, cxense.com, reject
 host-suffix, demdex.net, reject
 //host-suffix, jpush.cn, reject
@@ -17,7 +18,8 @@ host-suffix, petametrics.com, reject
 host-suffix, permutive.com, reject
 host-suffix, scorecardresearch.com, reject
 host-suffix, trackingio.com, reject
-//host-suffix, urbanairship.com, reject #suspend for potential push notification
+#suspend for potential push notification
+//host-suffix, urbanairship.com, reject
 host-suffix, vungle.com, reject
 host-suffix, xdrig.com, reject
 
@@ -51,7 +53,8 @@ host-suffix, pixel.facebook.com, reject
 //host-suffix, ads.youtube.com, reject
 //host-suffix, app-measurement.com, reject
 //host-suffix, doubleclick.net, reject
-host-suffix, google.cn, reject # no a tracker but reject as a fail safe
+# not a tracker but reject as a fail safe
+host-suffix, google.cn, reject
 //host-suffix, googleadservices.com, reject
 //host-suffix, googlesyndication.com, reject
 //host-suffix, googletagmanager.com, reject
@@ -320,8 +323,8 @@ host-keyword, zjtoolbar, reject
 //host-suffix, rich.kuwo.cn, reject
 
 # OpenAI
-host, o33249.ingest.sentry.io, reject
 host, openaicom.imgix.net, reject
+//host, o33249.ingest.sentry.io, reject
 
 # others
 //host-keyword, admarvel, reject
