@@ -193,8 +193,6 @@ host, saxs.sina.com.cn, reject
 host, saxn.sina.com.cn, reject
 
 # tencent
-# host-suffix, , reject
-
 host-suffix, ad.qq.com, reject
 host-suffix, adping.qq.com, reject
 host-suffix, adpm.app.qq.com, reject

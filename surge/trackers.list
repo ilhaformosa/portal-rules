@@ -1,0 +1,352 @@
+### In-app trackers and mobile ads block
+
+## general services
+# general
+DOMAIN-SUFFIX, adsame.com, reject
+DOMAIN-SUFFIX, amazon-adsystem.com, reject
+//DOMAIN-SUFFIX, appsflyer.com, reject # affects normal function
+DOMAIN-SUFFIX, cxense.com, reject
+DOMAIN-SUFFIX, demdex.net, reject
+//DOMAIN-SUFFIX, jpush.cn, reject # affects normal function
+DOMAIN-SUFFIX, krxd.net, reject
+DOMAIN-SUFFIX, moatads.com, reject
+DOMAIN-SUFFIX, newrelic.com, reject
+DOMAIN-SUFFIX, npttech.com, reject
+DOMAIN-SUFFIX, optimizely.com, reject
+DOMAIN-SUFFIX, petametrics.com, reject
+DOMAIN-SUFFIX, permutive.com, reject
+DOMAIN-SUFFIX, scorecardresearch.com, reject
+DOMAIN-SUFFIX, trackingio.com, reject
+#suspend for potential push notification
+//DOMAIN-SUFFIX, urbanairship.com, reject # affects normal function
+DOMAIN-SUFFIX, vungle.com, reject
+DOMAIN-SUFFIX, xdrig.com, reject
+
+# others
+DOMAIN-SUFFIX, api.amplitude.com, reject
+DOMAIN-SUFFIX, api.rlcdn.com, reject
+DOMAIN-SUFFIX, api.vidora.com, reject
+//DOMAIN-SUFFIX, api2.branch.io, reject # affects normal function
+DOMAIN-SUFFIX, app.adjust.com, reject
+DOMAIN-SUFFIX, as-sec.casalemedia.com, reject
+DOMAIN-SUFFIX, cdn.keywee.co, reject
+DOMAIN-SUFFIX, cn.miaozhen.com, reject
+DOMAIN-SUFFIX, i.gridsumdissector.com, reject
+DOMAIN-SUFFIX, ib.adnxs.com, reject
+DOMAIN-SUFFIX, match.adsrvr.org, reject
+DOMAIN-SUFFIX, piccdn.igetget.com, reject
+DOMAIN-SUFFIX, radar.cedexis.com, reject
+DOMAIN-SUFFIX, sc.omtrdc.net, reject
+DOMAIN-SUFFIX, segement-data.zqtk.net.net, reject
+DOMAIN-SUFFIX, static.chartbeat.com, reject
+DOMAIN-SUFFIX, sync.search.spotxchange.com, reject
+DOMAIN-SUFFIX, ws.sessioncam.com, reject
+
+## specific
+# facebook
+DOMAIN-SUFFIX, analytics.facebook.com, reject
+DOMAIN-SUFFIX, connect.facebook.net, reject
+DOMAIN-SUFFIX, pixel.facebook.com, reject
+
+# google
+//DOMAIN-SUFFIX, ads.youtube.com, reject
+//DOMAIN-SUFFIX, app-measurement.com, reject
+//DOMAIN-SUFFIX, doubleclick.net, reject
+# not a tracker but reject as a fail safe
+DOMAIN-SUFFIX, google.cn, reject
+//DOMAIN-SUFFIX, googleadservices.com, reject
+//DOMAIN-SUFFIX, googlesyndication.com, reject
+//DOMAIN-SUFFIX, googletagmanager.com, reject
+//DOMAIN-SUFFIX, google-analytics.com, reject
+//DOMAIN-SUFFIX, firebase-settings.crashlytics.com, reject
+
+# twitter
+//DOMAIN-SUFFIX, ads-twitter.com, reject
+
+## CN list
+# alibaba
+DOMAIN-SUFFIX, apoll.m.taobao.com, reject
+DOMAIN-SUFFIX, baichuan.taobao.com, reject
+DOMAIN-SUFFIX, beacon-api.aliyuncs.com, reject
+DOMAIN-SUFFIX, ef-dongfeng.tanx.com, reject
+DOMAIN-SUFFIX, ifs.tanx.com, reject
+DOMAIN-SUFFIX, ifsk2.tanx.com, reject
+DOMAIN-SUFFIX, mmstat.com, reject
+DOMAIN-SUFFIX, tunion-api.m.taobao.com, reject
+//DOMAIN-SUFFIX, gm.mmstat.com, reject
+//DOMAIN-SUFFIX, wgo.mmstat.com, reject
+//DOMAIN-SUFFIX, log.mmstat.com, reject
+//DOMAIN-SUFFIX, nbsdk-baichuan.taobao.com, reject
+
+# baidu
+DOMAIN-SUFFIX, a.baidu.com, reject
+DOMAIN-SUFFIX, ad.player.baidu.com, reject
+DOMAIN-SUFFIX, adm.baidu.com, reject
+DOMAIN-SUFFIX, adscdn.baidu.com, reject
+DOMAIN-SUFFIX, afd.baidu.com, reject
+DOMAIN-SUFFIX, als.baidu.com, reject
+DOMAIN-SUFFIX, anquan.baidu.com, reject
+DOMAIN-SUFFIX, antivirus.baidu.com, reject
+DOMAIN-SUFFIX, app.ibaiducdn.com, reject
+DOMAIN-SUFFIX, appc.baidu.com, reject
+DOMAIN-SUFFIX, baichuan.baidu.com, reject
+DOMAIN-SUFFIX, baidutv.baidu.com, reject
+DOMAIN-SUFFIX, baifen.music.baidu.com, reject
+DOMAIN-SUFFIX, banlv.baidu.com, reject
+DOMAIN-SUFFIX, bar.baidu.com, reject
+DOMAIN-SUFFIX, bdplus.baidu.com, reject
+DOMAIN-SUFFIX, btlaunch.baidu.com, reject
+DOMAIN-SUFFIX, c.baidu.com, reject
+DOMAIN-SUFFIX, cb.baidu.com, reject
+DOMAIN-SUFFIX, cbjs.baidu.com, reject
+DOMAIN-SUFFIX, cjhq.baidu.com, reject
+DOMAIN-SUFFIX, cleaner.baidu.com, reject
+DOMAIN-SUFFIX, cm.baidu.com, reject
+DOMAIN-SUFFIX, cpro.baidu.cn, reject
+DOMAIN-SUFFIX, cpro.baidu.com, reject
+DOMAIN-SUFFIX, cpro2.baidu.com, reject
+DOMAIN-SUFFIX, cpu-admin.baidu.com, reject
+DOMAIN-SUFFIX, crs.baidu.com, reject
+DOMAIN-SUFFIX, cpro.baidustatic.com, reject
+DOMAIN-SUFFIX, datax.baidu.com, reject
+DOMAIN-SUFFIX, dl1sw.baidu.com, reject
+DOMAIN-SUFFIX, dl2.bav.baidu.com, reject
+DOMAIN-SUFFIX, dlsw.baidu.com, reject
+DOMAIN-SUFFIX, dlsw.br.baidu.com, reject
+DOMAIN-SUFFIX, dl-vip.bav.baidu.com, reject
+DOMAIN-SUFFIX, drmcmm.baidu.com, reject
+DOMAIN-SUFFIX, duiwai.baidu.com, reject
+DOMAIN-SUFFIX, dxp.baidu.com, reject
+DOMAIN-SUFFIX, dzl.baidu.com, reject
+DOMAIN-SUFFIX, duapps.com, reject
+DOMAIN-SUFFIX, duclick.baidu.com, reject
+DOMAIN-SUFFIX, dxp.baidu.com, reject
+DOMAIN-SUFFIX, e.baidu.com, reject
+DOMAIN-SUFFIX, eclick.baidu.com, reject
+DOMAIN-SUFFIX, eiv.baidu.com, reject
+DOMAIN-SUFFIX, em.baidu.com, reject
+DOMAIN-SUFFIX, entry.baidu.com, reject
+DOMAIN-SUFFIX, ers.baidu.com, reject
+DOMAIN-SUFFIX, fclick.baidu.com, reject
+DOMAIN-SUFFIX, feed.baidu.com, reject
+DOMAIN-SUFFIX, fexclick.baidu.com, reject
+DOMAIN-SUFFIX, g.baidu.com, reject
+DOMAIN-SUFFIX, gimg.baidu.com, reject
+DOMAIN-SUFFIX, guanjia.baidu.com, reject
+DOMAIN-SUFFIX, hc.baidu.com, reject
+DOMAIN-SUFFIX, hdj.baidu.com, reject
+DOMAIN-SUFFIX, hm.baidu.com, reject
+DOMAIN-SUFFIX, hpd.baidu.com, reject
+# DOMAIN-SUFFIX, idm-su.baidu.com, reject
+DOMAIN-SUFFIX, mobads.baidu.com, reject
+DOMAIN-SUFFIX, mobads-logs.baidu.com, reject
+DOMAIN-SUFFIX, nadvideo2.baidu.com, reject
+DOMAIN-SUFFIX, nsclick.baidu.com, reject
+DOMAIN-SUFFIX, pos.baidu.com, reject
+DOMAIN-SUFFIX, sp1.baidu.com, reject
+
+# bytedance
+DOMAIN-SUFFIX, ad.toutiao.com, reject
+DOMAIN-SUFFIX, pangolin.snssdk.com, reject
+DOMAIN-SUFFIX, pangolin-sdk-toutiao.com, reject
+
+# caixin news
+DOMAIN-SUFFIX, gg.caixin.com, reject
+DOMAIN-SUFFIX, growingio.com, reject
+
+# china telecom
+DOMAIN, ad.21cn.com, reject
+DOMAIN, ad.k.21cn.com, reject
+DOMAIN, admarket.21cn.com, reject
+DOMAIN, adshows.21cn.com, reject
+
+# hunan tv
+DOMAIN-SUFFIX, da.mgtv.com, reject
+DOMAIN-SUFFIX, da.hunantv.com, reject
+DOMAIN-SUFFIX, log.hunantv.com, reject
+DOMAIN-SUFFIX, v2.hunantv.com, reject
+
+# iqiyi
+DOMAIN, t7z.cupid.iqiyi.com, reject
+DOMAIN, t7z.cupid.ptqy.gitv.tv, reject
+IP-CIDR, 101.227.97.240/32, reject
+IP-CIDR, 101.227.200.11/32, reject
+IP-CIDR, 101.227.200.28/32, reject
+IP-CIDR, 124.192.153.42/32, reject
+
+# mob.com
+//DOMAIN-SUFFIX, mob.com, reject
+DOMAIN-SUFFIX, data.mob.com, reject
+DOMAIN-SUFFIX, d.mob.com, reject
+DOMAIN-SUFFIX, exc.mob.com, reject
+DOMAIN-SUFFIX, share.mob.com, reject
+
+# sina
+DOMAIN-SUFFIX, alitui.weibo.com, reject
+DOMAIN-SUFFIX, beacon.sina.com.cn, reject
+DOMAIN, adimg.uve.weibo.com, reject
+DOMAIN, adimg.vue.weibo.com, reject
+DOMAIN, u1.img.mobile.sina.cn, reject
+DOMAIN, sax.sina.com.cn, reject
+DOMAIN, saxs.sina.com.cn, reject
+DOMAIN, saxn.sina.com.cn, reject
+
+# tencent
+DOMAIN-SUFFIX, ad.qq.com, reject
+DOMAIN-SUFFIX, adping.qq.com, reject
+DOMAIN-SUFFIX, adpm.app.qq.com, reject
+DOMAIN-SUFFIX, adrdir.qq.com, reject
+DOMAIN-SUFFIX, adsclick.qq.com, reject
+
+DOMAIN-SUFFIX, adsense.html5.qq.com, reject
+DOMAIN-SUFFIX, adsfile.qq.com, reject
+DOMAIN-SUFFIX, adsgroup.qq.com, reject
+DOMAIN-SUFFIX, adshmct.qq.com, reject
+DOMAIN-SUFFIX, adshmmsg.qq.com, reject
+DOMAIN-SUFFIX, adslvfile.qq.com, reject
+DOMAIN-SUFFIX, adslvseed.qq.com, reject
+DOMAIN-SUFFIX, adsolution.imtt.qq.com, reject
+DOMAIN-SUFFIX, adsqqclick.qq.com, reject
+DOMAIN-SUFFIX, adstextview.qq.com, reject
+DOMAIN-SUFFIX, adsview.qq.com, reject
+DOMAIN-SUFFIX, adsview2.qq.com, reject
+
+DOMAIN-SUFFIX, adsmind.apdcdn.tc.qq.com, reject
+DOMAIN-SUFFIX, adsmind.gdtimg.com, reject
+DOMAIN-SUFFIX, adsmind.tc.qq.com, reject
+
+DOMAIN-SUFFIX, adv.app.qq.com, reject
+DOMAIN-SUFFIX, adver.qq.com, reject
+DOMAIN-SUFFIX, analy.qq.com, reject
+
+DOMAIN-SUFFIX, btrace.qq.com, reject
+DOMAIN-SUFFIX, h5-api.feiersmart.com, reject
+DOMAIN-SUFFIX, info4.video.qq.com, reject
+DOMAIN-SUFFIX, ios.video.mpush.qq.com, reject
+//DOMAIN-SUFFIX, bugly.qq.com, reject
+//DOMAIN-SUFFIX, e.qq.com, reject
+//DOMAIN-SUFFIX, gdt.qq.com, reject
+//DOMAIN-SUFFIX, l.qq.com, reject
+//DOMAIN-SUFFIX, msdk.qq.com, reject
+//DOMAIN-SUFFIX, pingjs.qq.com, reject
+//DOMAIN-SUFFIX, trace.qq.com, reject
+//DOMAIN-SUFFIX, wspeed.qq.com, reject
+//DOMAIN, beacon.sparta.mig.tencent-cloud.net, reject
+//DOMAIN, pgdt.gtimg.cn, reject
+//DOMAIN, pgdt.gtimg.com, reject
+//DOMAIN, pgdt.ugdtimg.com, reject
+//DOMAIN, splashqqlive.gtimg.com, reject
+//DOMAIN, wa.gtimg.com, reject
+//DOMAIN, wxsnsdy.wxs.qq.com, reject
+//DOMAIN, wxsnsdythumb.wxs.qq.com, reject
+
+# the paper / pengpai
+DOMAIN-SUFFIX, admonitor.thepaper.cn, reject
+DOMAIN-SUFFIX, adpai.thepaper.cn, reject
+DOMAIN-SUFFIX, imgadpai.thepaper.cn, reject
+
+# umeng
+DOMAIN-SUFFIX, umeng.com, reject
+DOMAIN-SUFFIX, umengcloud.com, reject
+DOMAIN-SUFFIX, umsns.com, reject
+DOMAIN-SUFFIX, umtrack.com, reject
+//DOMAIN-SUFFIX, at.umtrack.com, reject
+//DOMAIN-SUFFIX, ulogs.umeng.com, reject
+//DOMAIN-SUFFIX, ulogs.umengcloud.com, reject
+//DOMAIN-SUFFIX, log.umsns.com, reject
+//DOMAIN-SUFFIX, errog.umeng.com, reject
+//DOMAIN-SUFFIX, plbslog.umeng.com, reject
+
+# wechat
+IP-CIDR, 119.29.29.0/24, reject, no-resolve
+DOMAIN-SUFFIX, dns.weixin.qq.com, reject
+# wechat tracker/reporter
+IP-CIDR, 109.244.0.0/16, reject, no-resolve
+
+# xiaomi
+DOMAIN-SUFFIX, ad.xiaomi.com, reject
+DOMAIN-SUFFIX, ad.intl.xiaomi.com, reject
+DOMAIN-SUFFIX, tracking.miui.com, reject
+DOMAIN-SUFFIX, tracking.intl.miui.com, reject
+
+# youku
+DOMAIN-SUFFIX, atm.youku.com, reject
+DOMAIN-SUFFIX, ad.mobile.youku.com, reject
+DOMAIN-SUFFIX, iyes.youku.com, reject
+DOMAIN-SUFFIX, ott.cibntv.net, reject
+
+# zhihu
+DOMAIN-SUFFIX, appcloud2.in.zhihu.com, reject
+DOMAIN-SUFFIX, mqtt.zhihu.com, reject
+DOMAIN-SUFFIX, sugar.zhihu.com, reject
+IP-CIDR, 118.89.204.198/32, reject
+//ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
+
+## others
+DOMAIN, adserver.juicyads.com, reject
+DOMAIN, promo.cameraprive.com, reject
+DOMAIN-SUFFIX, crashlytics.com, reject
+DOMAIN-SUFFIX, shark-tracer.netease.com, reject
+DOMAIN-SUFFIX, sobot.com, reject
+DOMAIN-SUFFIX, zaoshu.so, reject
+DOMAIN-SUFFIX, bing.cn, reject
+DOMAIN-SUFFIX, cn.bing.com, reject
+DOMAIN-KEYWORD, wlmonitor, reject
+DOMAIN-KEYWORD, zjtoolbar, reject
+
+## some records / disabled
+# kraken
+//DOMAIN-SUFFIX, mixpanel.com, reject
+//DOMAIN-SUFFIX, sentry.io, reject
+
+# microsoft
+//DOMAIN-SUFFIX, ads.msn.com, reject
+//DOMAIN-SUFFIX, ads1.msn.com, reject
+//DOMAIN-SUFFIX, ads2.msn.com, reject
+//DOMAIN-SUFFIX, rads.msn.com, reject
+//DOMAIN-SUFFIX, mobileads.msn.com, reject
+
+# tencent music
+//DOMAIN-SUFFIX, ad.tencentmusic.com, reject
+//DOMAIN-SUFFIX, adstats.tencentmusic.com, reject
+//DOMAIN-SUFFIX, adserviceretry.kugou.com, reject
+//DOMAIN-SUFFIX, ads.service.kugou.com, reject
+//DOMAIN-SUFFIX, adsfile.bssdlbig.kugou.com, reject
+//DOMAIN-SUFFIX, g.koowo.com, reject
+//DOMAIN-SUFFIX, kgmobilestat.kugou.com, reject
+//DOMAIN-SUFFIX, kgmobilestatbak.kugou.com, reject
+//DOMAIN-SUFFIX, mobilelog.kugou.com, reject
+//DOMAIN-SUFFIX, mobilead.kuwo.cn, reject
+//DOMAIN-SUFFIX, rich.kuwo.cn, reject
+
+# OpenAI
+//DOMAIN, openaicom.imgix.net, reject
+//DOMAIN, o33249.ingest.sentry.io, reject
+
+# others
+//DOMAIN-KEYWORD, admarvel, reject
+//DOMAIN-KEYWORD, admaster, reject
+//DOMAIN-KEYWORD, adsage, reject
+//DOMAIN-KEYWORD, adsmogo, reject
+//DOMAIN-KEYWORD, adsrvmedia, reject
+//DOMAIN-KEYWORD, adwords, reject
+//DOMAIN-KEYWORD, duomeng, reject
+//DOMAIN-KEYWORD, dwtrack, reject
+//DOMAIN-KEYWORD, guanggao, reject
+//DOMAIN-KEYWORD, lianmeng, reject
+//DOMAIN-KEYWORD, omgmta, reject
+//DOMAIN-KEYWORD, partnerad, reject
+//DOMAIN-KEYWORD, pingfore, reject
+//DOMAIN-KEYWORD, rtbasia, reject
+//DOMAIN-KEYWORD, supersonicads, reject
+//DOMAIN-SUFFIX, tiqcdn.com, reject
+//DOMAIN-SUFFIX, dpm.demdex.net, reject
+//DOMAIN-SUFFIX, js-agent.newrelic.com, reject
+//DOMAIN-SUFFIX, query1.petametrics.com, reject
+//DOMAIN-SUFFIX, query.petametrics.com, reject
+//DOMAIN-SUFFIX, api.cxense.com, reject
+//DOMAIN-SUFFIX, p1cluster.cxense.com, reject
+//DOMAIN-SUFFIX, mb.moatads.com, reject
+//DOMAIN-SUFFIX, z.moatads.com, reject
+//DOMAIN-SUFFIX, api.permutive.com, reject
+//DOMAIN-SUFFIX, cdn.permutive.com, reject

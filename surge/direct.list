@@ -1,0 +1,357 @@
+### direct filters
+## local addresses, configured locally
+//DOMAIN-SUFFIX, local, direct
+//DOMAIN-SUFFIX, localhost, direct
+//IP-CIDR, 10.0.0.0/8, direct
+//IP-CIDR, 100.64.0.0/10, direct
+//IP-CIDR, 127.0.0.0/8, direct
+//IP-CIDR, 172.16.0.0/12, direct
+//IP-CIDR, 192.168.0.0/16, direct
+//IP-CIDR, 224.0.0.0/4, direct
+//IP6-CIDR, fe80::/10, direct
+
+## Tailscale
+IP-CIDR, 100.64.0.0/10, no-resolve
+
+## CN (configured locally, geoip should be the last rule before final)
+//DOMAIN-SUFFIX, cn, direct #configured locally
+//DOMAIN-SUFFIX, linksyssmartwifi.com, direct
+
+# caixin news
+//DOMAIN-KEYWORD, caixin, direct
+
+# alibaba
+ip-asn, 24429, direct
+ip-asn, 37963, direct
+ip-asn, 45102, direct
+//DOMAIN-SUFFIX, alibaba.com, direct
+//DOMAIN-SUFFIX, alibabausercontent.com, direct
+DOMAIN-KEYWORD, alibaba, direct
+DOMAIN-KEYWORD, alicdn, direct
+DOMAIN-KEYWORD, alikunlun, direct
+DOMAIN-KEYWORD, alipay, direct
+//DOMAIN-SUFFIX, aliyun.com, direct
+//DOMAIN-SUFFIX, aliyuncs.com, direct
+DOMAIN-KEYWORD, aliyun, direct
+DOMAIN-KEYWORD, taobao, direct
+DOMAIN-KEYWORD, tmall, direct
+
+DOMAIN-SUFFIX, amap.com, direct
+DOMAIN-SUFFIX, autonavi.com, direct # map service
+DOMAIN-SUFFIX, dingtalk.com, direct # dingding
+DOMAIN-SUFFIX, ele.me, direct # eleme
+//DOMAIN-SUFFIX, tanx.com, direct # need more info
+DOMAIN-SUFFIX, ucweb.com, direct
+DOMAIN-SUFFIX, xiami.com, direct
+DOMAIN-SUFFIX, xiami.net, direct
+
+# baidu
+DOMAIN-KEYWORD, baidu, direct
+DOMAIN-SUFFIX, bdimg.com, direct
+DOMAIN-SUFFIX, bdstatic.com, direct
+
+# banks
+DOMAIN-SUFFIX, citic, direct
+DOMAIN-SUFFIX, citicbank.com, direct
+DOMAIN-SUFFIX, ecitic.com, direct
+
+# bilibili
+DOMAIN-KEYWORD, bilibili, direct
+DOMAIN-SUFFIX, bilivideo.com, direct
+DOMAIN-SUFFIX, hdslb.com, direct
+
+# byte dance
+DOMAIN-SUFFIX, feiliao.com, direct
+DOMAIN-SUFFIX, pstatp.com, direct
+DOMAIN-SUFFIX, snssdk.com, direct
+DOMAIN-SUFFIX, douyin.com, direct
+DOMAIN-SUFFIX, toutiao.com, direct
+
+# cctv
+DOMAIN-SUFFIX, cctv.com, direct
+DOMAIN-SUFFIX, cctvpic.com, direct
+DOMAIN-SUFFIX, livechina.com, direct
+
+# china merchants group
+DOMAIN-SUFFIX, cmbchina.com, direct
+DOMAIN-SUFFIX, cmbimg.com, direct
+DOMAIN-SUFFIX, cmschina.com, direct
+DOMAIN-SUFFIX, myqcloud.com, direct
+
+# didi
+DOMAIN-SUFFIX, chengxinyouxuan.com, direct
+DOMAIN-SUFFIX, didialift.com, direct
+DOMAIN-SUFFIX, didiglobal.com, direct
+DOMAIN-SUFFIX, didistatic.com, direct
+//DOMAIN-SUFFIX, diditaxi.com.cn, direct
+DOMAIN-SUFFIX, udache.com, direct
+DOMAIN-SUFFIX, xiaojukeji.com, direct
+
+# hunan tv
+DOMAIN-SUFFIX, hitv.com, direct
+DOMAIN-SUFFIX, hunantv.com, direct
+DOMAIN-SUFFIX, mgtv.com, direct
+
+# iqiyi
+DOMAIN-SUFFIX, iqiyi.com, direct
+DOMAIN-SUFFIX, iqiyipic.com, direct
+DOMAIN-SUFFIX, qiyipic.com, direct
+
+# jd.com
+DOMAIN-SUFFIX, jd.com, direct
+DOMAIN-SUFFIX, jdpay.com, direct
+DOMAIN-SUFFIX, 360buyimg.com, direct
+DOMAIN-SUFFIX, 300hu.com, direct
+
+# meituan
+DOMAIN-SUFFIX, dianping.com, direct
+//DOMAIN-SUFFIX, dpfile.com, direct
+DOMAIN-SUFFIX, meituan.com, direct
+DOMAIN-SUFFIX, meituan.net, direct
+
+# mi.com
+DOMAIN-KEYWORD, xiaomi, direct
+DOMAIN-SUFFIX, mi.com, direct
+DOMAIN-SUFFIX, mi-img.com, direct
+DOMAIN-SUFFIX, miot-spec.org, direct
+DOMAIN-SUFFIX, miui.com, direct
+DOMAIN-SUFFIX, miwifi.com, direct
+//DOMAIN-SUFFIX, xiaomi.com, direct
+//DOMAIN-SUFFIX, xiaomi.net, direct
+//DOMAIN-SUFFIX, xiaomicp.com, direct
+//DOMAIN-SUFFIX, xiaomiyoupin.com, direct
+
+# netease
+DOMAIN-KEYWORD, netease, direct
+DOMAIN-SUFFIX, 126.com, direct
+DOMAIN-SUFFIX, 126.net, direct
+DOMAIN-SUFFIX, 163.com, direct
+DOMAIN-SUFFIX, 163yun.com, direct
+DOMAIN-SUFFIX, lofter.com, direct
+DOMAIN-SUFFIX, ydstatic.com, direct
+DOMAIN-SUFFIX, youdao.com, direct
+
+# sina
+DOMAIN-KEYWORD, sina, direct
+DOMAIN-KEYWORD, weibo, direct
+//DOMAIN-SUFFIX, sina.com, direct
+//DOMAIN-SUFFIX, sinaapp.com, direct
+//DOMAIN-SUFFIX, weibo.com, direct
+//DOMAIN-SUFFIX, weibocdn.com, direct
+
+# sohu
+DOMAIN-KEYWORD, sohu, direct
+//DOMAIN-SUFFIX, sohu.com, direct
+//DOMAIN-SUFFIX, sohucs.com, direct
+//DOMAIN-SUFFIX, sohu-inc.com, direct
+
+# sogo
+DOMAIN-KEYWORD, sohu, direct
+//DOMAIN-SUFFIX, sogo.com, direct
+//DOMAIN-SUFFIX, sogou.com, direct
+//DOMAIN-SUFFIX, sogoucdn.com, direct
+
+# tencent
+//DOMAIN-KEYWORD, tencent, direct
+DOMAIN-SUFFIX, gtimg.com, direct
+DOMAIN-SUFFIX, qq.com, direct
+DOMAIN-SUFFIX, qqmail.com, direct
+
+IP-CIDR, 1.193.208.182/32, direct
+IP-CIDR, 1.193.209.40/32, direct
+IP-CIDR, 101.32.104.4/32, direct
+IP-CIDR, 101.32.104.41/32, direct
+IP-CIDR, 101.32.104.56/32, direct
+IP-CIDR, 101.32.118.25/32, direct
+IP-CIDR, 101.32.133.16/32, direct
+IP-CIDR, 101.32.133.53/32, direct
+IP-CIDR, 101.32.133.209/32, direct
+IP-CIDR, 113.96.18.148/32, direct
+IP-CIDR, 113.96.18.152/32, direct
+IP-CIDR, 119.147.190.217/32, direct
+IP-CIDR, 129.226.3.47/32, direct
+IP-CIDR, 129.226.107.244/32, direct
+IP-CIDR, 180.102.49.11/32, direct
+IP-CIDR, 180.102.49.35/32, direct
+IP-CIDR, 180.102.49.68/32, direct
+IP-CIDR, 180.102.49.86/32, direct
+IP-CIDR, 180.102.49.99/32, direct
+IP-CIDR, 180.102.49.100/32, direct
+IP-CIDR, 180.102.111.197/32, direct
+IP-CIDR, 180.102.111.223/32, direct
+IP-CIDR, 180.102.211.252/32, direct
+IP-CIDR, 182.254.116.0/24, direct
+IP-CIDR, 183.47.101.145/32, direct
+IP-CIDR, 183.47.101.154/32, direct
+IP-CIDR, 183.47.101.157/32, direct
+IP-CIDR, 183.47.101.194/32, direct
+IP-CIDR, 183.47.101.253/32, direct
+IP-CIDR, 183.47.102.71/32, direct
+IP-CIDR, 203.205.254.0/23, direct
+
+//IP-CIDR, 101.32.104.0/25, direct
+//IP-CIDR, 101.32.118.0/23, direct
+
+# yonghui
+DOMAIN-SUFFIX, geetest.com, direct
+DOMAIN-SUFFIX, qiyukf.com, direct
+DOMAIN-SUFFIX, yonghuivip.com, direct
+DOMAIN-SUFFIX, yunxindns.com, direct
+
+#=======================================
+
+## other (replaced by geoip for cleaner ruleset)
+//DOMAIN-SUFFIX, 21cn.com, direct
+//DOMAIN-SUFFIX, 36kr.com, direct
+//DOMAIN-SUFFIX, acfun.tv, direct
+//DOMAIN-SUFFIX, aicoinstorge.com, direct
+//DOMAIN-SUFFIX, aihuishou.com, direct
+//DOMAIN-SUFFIX, air-matters.com, direct
+//DOMAIN-SUFFIX, aixifan.com, direct
+//DOMAIN-SUFFIX, bdatu.com, direct
+//DOMAIN-SUFFIX, beitaichufang.com, direct
+//DOMAIN-SUFFIX, bstatic.com, direct
+//DOMAIN-SUFFIX, cailianpress.com, direct
+//DOMAIN-SUFFIX, caiyunapp.com, direct
+//DOMAIN-SUFFIX, camera360.com, direct
+//DOMAIN-SUFFIX, cdntips.net, direct
+//DOMAIN-SUFFIX, chaoxing.com, direct
+//DOMAIN-SUFFIX, chaoxing.com, direct
+//DOMAIN-SUFFIX, chinaso.com, direct
+//DOMAIN-SUFFIX, chuimg.com, direct
+//DOMAIN-SUFFIX, chunyu.mobi, direct
+//DOMAIN-SUFFIX, cibntv.net, direct
+//DOMAIN-SUFFIX, clouddn.com, direct
+//DOMAIN-SUFFIX, cnbeta.com, direct
+//DOMAIN-SUFFIX, cnbetacdn.com, direct
+//DOMAIN-SUFFIX, cnhubei.com, direct
+//DOMAIN-SUFFIX, coolapk.com, direct
+//DOMAIN-SUFFIX, cootekservice.com, direct
+//DOMAIN-SUFFIX, csdn.net, direct
+//DOMAIN-SUFFIX, ctrip.com, direct
+//DOMAIN-SUFFIX, dfcfw.com, direct
+//DOMAIN-SUFFIX, dgtle.com, direct
+//DOMAIN-SUFFIX, dji.com, direct
+//DOMAIN-SUFFIX, docschina.org, direct
+//DOMAIN-SUFFIX, douban.com, direct
+//DOMAIN-SUFFIX, doubanio.com, direct
+//DOMAIN-SUFFIX, douyu.com, direct
+//DOMAIN-SUFFIX, duokan.com, direct
+//DOMAIN-SUFFIX, dxycdn.com, direct
+//DOMAIN-SUFFIX, dytt8.net, direct
+//DOMAIN-SUFFIX, easou.com, direct
+//DOMAIN-SUFFIX, eastmoney.com, direct
+//DOMAIN-SUFFIX, eudic.net, direct
+//DOMAIN-SUFFIX, feng.com, direct
+//DOMAIN-SUFFIX, fengkongcloud.com, direct
+//DOMAIN-SUFFIX, fir.im, direct
+//DOMAIN-SUFFIX, frdic.com, direct
+//DOMAIN-SUFFIX, futu5.com, direct
+//DOMAIN-SUFFIX, futunn.com, direct
+//DOMAIN-SUFFIX, gandi.net, direct
+//DOMAIN-SUFFIX, gcores.com, direct
+//DOMAIN-SUFFIX, g-cores.com, direct
+//DOMAIN-SUFFIX, geilicdn.com, direct
+//DOMAIN-SUFFIX, getpricetag.com, direct
+//DOMAIN-SUFFIX, gifshow.com, direct
+//DOMAIN-SUFFIX, godic.net, direct
+//DOMAIN-SUFFIX, heweather.net, direct
+//DOMAIN-SUFFIX, hicloud.com, direct
+//DOMAIN-SUFFIX, hongxiu.com, direct
+//DOMAIN-SUFFIX, hostbuf.com, direct
+//DOMAIN-SUFFIX, hupu.com, direct
+//DOMAIN-SUFFIX, huxiucdn.com, direct
+//DOMAIN-SUFFIX, huya.com, direct
+//DOMAIN-SUFFIX, hxcdn.net, direct
+//DOMAIN-SUFFIX, iciba.com, direct
+//DOMAIN-SUFFIX, ifeng.com, direct
+//DOMAIN-SUFFIX, ifengimg.com, direct
+//DOMAIN-SUFFIX, infinitynewtab.com, direct
+//DOMAIN-SUFFIX, intsig.net, direct
+//DOMAIN-SUFFIX, ithome.com, direct
+//DOMAIN-SUFFIX, jianguoyun.com, direct
+//DOMAIN-SUFFIX, jianshu.com, direct
+//DOMAIN-SUFFIX, jidian.im, direct
+//DOMAIN-SUFFIX, kaiyanapp.com, direct
+//DOMAIN-SUFFIX, kaspersky-labs.com, direct
+//DOMAIN-SUFFIX, keep.com, direct
+//DOMAIN-SUFFIX, keepcdn.com, direct
+//DOMAIN-SUFFIX, kkmh.com, direct
+//DOMAIN-SUFFIX, knewone.com, direct
+//DOMAIN-SUFFIX, lanzous.com, direct
+//DOMAIN-SUFFIX, le.com, direct
+//DOMAIN-SUFFIX, lecloud.com, direct
+//DOMAIN-SUFFIX, lemicp.com, direct
+//DOMAIN-SUFFIX, luojilab.com, direct
+//DOMAIN-SUFFIX, luoo.net, direct
+//DOMAIN-SUFFIX, maoyan.com, direct
+//DOMAIN-SUFFIX, maoyun.tv, direct
+//DOMAIN-SUFFIX, miaopai.com, direct
+//DOMAIN-SUFFIX, mls-cdn.com, direct
+//DOMAIN-SUFFIX, mob.com, direct
+//DOMAIN-SUFFIX, mobike.com, direct
+//DOMAIN-SUFFIX, moke.com, direct
+//DOMAIN-SUFFIX, mubu.com, direct
+//DOMAIN-SUFFIX, myzaker.com, direct
+//DOMAIN-SUFFIX, nim-lang-cn.org, direct
+//DOMAIN-SUFFIX, oschina.net, direct
+//DOMAIN-SUFFIX, ppsimg.com, direct
+//DOMAIN-SUFFIX, qcloud.com, direct
+//DOMAIN-SUFFIX, qdaily.com, direct
+//DOMAIN-SUFFIX, qdmm.com, direct
+//DOMAIN-SUFFIX, qhimg.com, direct
+//DOMAIN-SUFFIX, qhres.com, direct
+//DOMAIN-SUFFIX, qidian.com, direct
+//DOMAIN-SUFFIX, qihucdn.com, direct
+//DOMAIN-SUFFIX, qiniu.com, direct
+//DOMAIN-SUFFIX, qiniucdn.com, direct
+//DOMAIN-SUFFIX, qweather.com, direct
+//DOMAIN-SUFFIX, qyer.com, direct
+//DOMAIN-SUFFIX, qyerstatic.com, direct
+//DOMAIN-SUFFIX, raychase.net, direct
+//DOMAIN-SUFFIX, ronghub.com, direct
+//DOMAIN-SUFFIX, ruguoapp.com, direct
+//DOMAIN-SUFFIX, sankuai.com, direct
+//DOMAIN-SUFFIX, scomper.me, direct
+//DOMAIN-SUFFIX, segmentfault.com, direct
+//DOMAIN-SUFFIX, sf-express.com, direct
+//DOMAIN-SUFFIX, shmetro.com, direct
+//DOMAIN-SUFFIX, shouqianba.com, direct
+//DOMAIN-SUFFIX, smzdm.com, direct
+//DOMAIN-SUFFIX, snapdrop.net, direct
+//DOMAIN-SUFFIX, snwx.com, direct
+//DOMAIN-SUFFIX, soku.com, direct
+//DOMAIN-SUFFIX, s-reader.com, direct
+//DOMAIN-SUFFIX, sspai.com, direct
+//DOMAIN-SUFFIX, subhd.tv, direct
+//DOMAIN-SUFFIX, suning.com, direct
+//DOMAIN-SUFFIX, takungpao.com, direct
+//DOMAIN-SUFFIX, teamviewer.com, direct
+//DOMAIN-SUFFIX, tianyancha.com, direct
+//DOMAIN-SUFFIX, tophub.today, direct
+//DOMAIN-SUFFIX, tudou.com, direct
+//DOMAIN-SUFFIX, umetrip.com, direct
+//DOMAIN-SUFFIX, upaiyun.com, direct
+//DOMAIN-SUFFIX, upyun.com, direct
+//DOMAIN-SUFFIX, veryzhun.com, direct
+//DOMAIN-SUFFIX, weidian.com, direct
+//DOMAIN-SUFFIX, xiachufang.com, direct
+//DOMAIN-SUFFIX, xiaoka.tv, direct
+//DOMAIN-SUFFIX, ximalaya.com, direct
+//DOMAIN-SUFFIX, xinhuanet.com, direct
+//DOMAIN-SUFFIX, xmcdn.com, direct
+//DOMAIN-SUFFIX, xunlei.com, direct
+//DOMAIN-SUFFIX, yangkeduo.com, direct
+//DOMAIN-SUFFIX, yhd.com, direct
+//DOMAIN-SUFFIX, yicai.com, direct
+//DOMAIN-SUFFIX, yihaodianimg.com, direct
+//DOMAIN-SUFFIX, yinxiang.com, direct
+//DOMAIN-SUFFIX, yizhibo.com, direct
+//DOMAIN-SUFFIX, ykimg.com, direct
+//DOMAIN-SUFFIX, youku.com, direct
+//DOMAIN-SUFFIX, zealer.com, direct
+//DOMAIN-SUFFIX, zhangzishi.cc, direct
+//DOMAIN-SUFFIX, zhihu.com, direct
+//DOMAIN-SUFFIX, zhimg.com, direct
+//DOMAIN-SUFFIX, zimuzu.tv, direct
+//DOMAIN-SUFFIX, zoho.com, direct

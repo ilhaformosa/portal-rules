@@ -1,0 +1,20 @@
+### directed through proxy for OpenAI ## use force policy to modify
+
+# OpenAI
+DOMAIN-SUFFIX, ai.com, portal
+DOMAIN-SUFFIX, chatgpt.com, portal
+DOMAIN-SUFFIX, ingest.sentry.io, portal
+DOMAIN-SUFFIX, openai.com, portal
+DOMAIN-SUFFIX, oaistatic.com, portal
+DOMAIN-SUFFIX, oaiusercontent.com, portal
+
+DOMAIN-SUFFIX, api.mixpanel.com, portal
+DOMAIN-SUFFIX, api.revenuecat.com, portal
+DOMAIN-SUFFIX, api.statsig.com, portal
+DOMAIN-SUFFIX, cdn.auth0.com, portal
+DOMAIN-SUFFIX, o.lencr.org, portal
+DOMAIN, chat.openai.com.cdn.cloudflare.net, portal
+DOMAIN, openaiapi-site.azureedge.net, portal
+DOMAIN, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, portal
+DOMAIN, openaicomproductionae4b.blob.core.windows.net, portal
+DOMAIN, production-openaicom-storage.azureedge.net, portal
